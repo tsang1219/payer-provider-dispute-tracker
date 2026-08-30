@@ -46,7 +46,7 @@ export default function StatBand({ disputes, total }: Props) {
     {
       label: "Still out of network",
       value: String(stats.ongoing.length),
-      sub: "active standoffs, patients out of network today",
+      sub: "recorded as ongoing at last review",
       color: "#b87400",
     },
     {

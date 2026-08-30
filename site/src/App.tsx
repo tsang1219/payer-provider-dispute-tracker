@@ -57,7 +57,8 @@ export default function App() {
           <p className="mt-4 max-w-2xl text-ink-2 text-base sm:text-lg leading-relaxed">
             Public contract standoffs between American hospitals and insurers,
             2021–present: who's fighting whom, how long the standoffs run, and how
-            they end. {META.records} disputes tracked, updated monthly.
+            they end. {META.records} disputes in the restoration baseline; public
+            updates are reviewed before release.
           </p>
           <p className="mt-2 text-xs text-ink-3">
             Data as of {META.asOf}
@@ -143,21 +144,21 @@ export default function App() {
               </p>
               <h3 className="font-semibold text-ink mt-5 mb-2">Updates & corrections</h3>
               <p>
-                The dataset is refreshed monthly: new public standoffs are added and
-                open disputes are re-checked for resolution. Spot an error or a
-                missing fight? Write to{" "}
-                <a href="https://healthisotherpeople.com" className="underline decoration-hairline underline-offset-2 hover:text-ink">
-                  Health Is Other People
+                Automated searches stage possible additions and status changes for
+                human review. The current release is a restored historical baseline,
+                not a claim that every record is current or complete. Spot an error,
+                a better source, or a missing fight? Open an issue or pull request on{" "}
+                <a href="https://github.com/tsang1219/payer-provider-dispute-tracker" className="underline decoration-hairline underline-offset-2 hover:text-ink">
+                  GitHub
                 </a>
                 .
               </p>
               <p className="mt-3">
                 <a
-                  href="/disputes.csv"
+                  href="https://github.com/tsang1219/payer-provider-dispute-tracker"
                   className="underline decoration-hairline underline-offset-2 hover:text-ink"
-                  download
                 >
-                  Download the full dataset (CSV)
+                  View the data, methodology, and version history
                 </a>
               </p>
             </div>

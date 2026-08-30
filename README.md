@@ -1,5 +1,7 @@
 # Payer-Provider Dispute Tracker
 
+**Public repository:** <https://github.com/tsang1219/payer-provider-dispute-tracker>
+
 A living dataset of U.S. hospital–insurer contract disputes (2021–present), with a hosted interactive web app, a monthly self-maintenance job, and visualization exports for DataWrapper and Flourish.
 
 This is an independent, visibility-biased tracker rather than a comprehensive census. Read [METHODOLOGY.md](METHODOLOGY.md) for definitions, estimation caveats, and the correction process. Contributions are welcome through [CONTRIBUTING.md](CONTRIBUTING.md).
