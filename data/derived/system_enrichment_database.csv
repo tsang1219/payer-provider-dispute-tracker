@@ -1,0 +1,141 @@
+system_normalized,total_beds,market_share_pct,is_teaching_hospital,operating_margin_pct,system_type,annual_revenue_mm,employed_physicians,source
+South Shore,400,12.0,False,2.1,community,1100,450,MA CHIA data 2023
+Phoenix Children's,650,85.0,True,4.5,specialty_pediatric,2100,1200,Phoenix Children's Annual Report 2023
+Hackensack Meridian,7000,25.0,True,2.8,large_system,8500,4500,HMH Annual Report 2023
+M Fairview,2100,28.0,True,1.5,academic,6200,2800,M Health Fairview financials 2023
+NewYork-Presbyterian,2600,8.5,True,3.2,academic,10500,6500,NYP Annual Report 2023
+Ohio State Wexner,1500,22.0,True,3.1,academic,5800,2200,OSU Wexner Medical Center 2023
+UConn,380,8.0,True,-1.2,academic,1400,650,CT OHCA data 2023
+WakeMed,950,35.0,True,4.2,large_system,2400,900,"NC DHSR, WakeMed 2023"
+Centra,700,65.0,False,2.8,regional,1200,400,Centra Health Annual Report 2023
+UNC,1000,18.0,True,2.2,academic,5200,2100,UNC Health 2023
+Avera,2100,45.0,True,3.5,regional,2800,1100,Avera Health 2023
+Iowa Specialtys,180,15.0,False,1.8,community,220,85,Iowa Specialty Hospitals 2023
+Wellstar,3200,25.0,True,2.5,large_system,5500,2400,Wellstar Health 2023
+Northside,1600,22.0,True,6.5,large_system,3800,1400,Northside Hospital 2023
+HartfordCare,1800,40.0,True,3.8,large_system,4800,2200,Hartford HealthCare 2023
+Providence,12000,15.0,True,0.8,large_system,28000,11000,Providence Annual Report 2023
+Genesiscare System,450,55.0,False,2.8,regional,650,280,Genesis Healthcare 2023
+Salem,440,35.0,True,2.5,regional,680,320,Salem Health 2023
+HealthPartners,1200,12.0,True,2.5,integrated_system,8500,1800,HealthPartners 2023
+North Memorial,520,8.0,True,1.2,community,1100,420,North Memorial Health 2023
+Northeast Georgia,750,60.0,False,5.2,regional,1800,650,NGHS 2023
+Lehigh Valley Network,2100,55.0,True,4.8,regional,3200,1800,LVHN 2023
+MU Care,600,35.0,True,1.2,academic,1100,480,MU Health Care 2023
+Mass General Brigham,3500,30.0,True,2.1,academic,18500,8500,MGB Annual Report 2023
+Mayo Clinic,2800,45.0,True,5.8,academic,16800,5400,Mayo Clinic 2023
+Memorial Hermann,3700,25.0,True,3.5,large_system,7500,3200,Memorial Hermann 2023
+Memorial Sloan Kettering Cancer Center,514,35.0,True,2.5,specialty_cancer,7200,1350,MSK Annual Report 2023
+Mount Sinai,3800,10.0,True,1.5,academic,9500,5200,Mount Sinai 2023
+Mount Carmel,1100,15.0,False,2.2,large_system,2100,850,Trinity Health/Mount Carmel 2023
+Montrose,75,70.0,False,2.0,critical_access,180,60,CO HCPF 2023
+Southwestern Resources/Texas/UT Southwestern,900,12.0,True,3.5,academic,4200,2100,UT Southwestern 2023
+Scripps,1400,20.0,True,1.8,large_system,3800,1500,Scripps Health 2023
+Trinity Michigan,1800,15.0,True,1.0,large_system,3200,1400,Trinity Health Michigan 2023
+Baylor Scott \u0026 White,5500,18.0,True,4.2,large_system,14000,5500,BSW 2023
+Brown University,1100,35.0,True,1.5,academic,2800,1100,Brown University Health 2023
+Baptist,2800,35.0,True,3.2,large_system,4100,1600,Baptist Health KY 2023
+University of Utah,600,25.0,True,3.0,academic,4500,1800,U of Utah Health 2023
+Bon Secours Mercy,2800,18.0,True,1.2,large_system,5800,2400,Bon Secours Mercy 2023
+VCU,900,22.0,True,1.8,academic,3200,1400,VCU Health 2023
+Vanderbilt,1200,28.0,True,3.8,academic,6500,2800,VUMC 2023
+WVU Medicine Uniontown,150,30.0,False,-0.5,community,180,65,WVU Medicine 2023
+Ascension Texas,2200,10.0,True,1.5,large_system,3800,1500,Ascension Texas 2023
+Allina,2400,22.0,True,2.8,large_system,5200,2100,Allina Health 2023
+Albany Med,750,40.0,True,2.5,academic,1800,800,Albany Med 2023
+Carson Tahoe,240,45.0,False,1.5,community,450,180,Carson Tahoe Health 2023
+WellSpan,1400,45.0,True,3.5,regional,2900,1200,WellSpan Health 2023
+UMass Memorial,800,50.0,True,2.5,academic,3500,1500,UMass Memorial 2023
+Northern Light (10 hospitals),1200,50.0,True,1.5,regional,2400,950,Northern Light Health 2023
+UC (University of California),4500,12.0,True,2.8,academic,18000,8000,UC Health 2023
+North Mississippi Services,650,55.0,True,3.5,regional,1100,480,NMHS 2023
+NCHcare System,700,40.0,True,4.2,regional,1400,550,NCH Healthcare 2023
+North Kansas City/Meritas,450,12.0,False,2.0,community,650,280,North Kansas City Hospital 2023
+University of Florida,1200,30.0,True,3.5,academic,5500,2200,UF Health 2023
+Tryon Partners,0,8.0,False,3.0,physician_group,250,300,Tryon Medical Partners 2023
+MyMichigan,650,45.0,True,2.5,regional,1100,450,MyMichigan Health 2023
+MultiCare,1800,30.0,True,3.2,large_system,4200,1800,MultiCare Health 2023
+Northside Gwinnett,350,25.0,False,4.5,community,650,280,Northside Gwinnett 2023
+St. Charles,260,55.0,True,2.0,regional,850,380,St. Charles Health 2023
+Trinity of New England,1000,15.0,True,1.5,large_system,1800,750,Trinity Health NE 2023
+Stamford,305,35.0,True,3.5,community,850,380,Stamford Health 2023
+Southwestern Resources/UT Southwestern/Texas,900,12.0,True,3.5,academic,4200,2100,UT Southwestern 2023
+Southwestern Resources,900,12.0,True,3.5,academic,4200,2100,SWHR 2023
+Southeast Georgia,450,65.0,False,2.8,regional,650,280,SGHS 2023
+St. Peter's Partners,450,20.0,True,1.5,community,850,380,Trinity Health/St Peter's 2023
+Scripps Clinic Group,200,10.0,True,2.0,physician_group,450,400,Scripps Clinic 2023
+Methodist Care,550,25.0,True,2.5,community,950,420,Methodist Healthcare TN 2023
+Sanford (largest rural system),2800,50.0,True,4.2,large_system,6500,2400,Sanford Health 2023
+Sanford,2800,50.0,True,4.2,large_system,6500,2400,Sanford Health 2023
+Samaritan Services,450,45.0,True,2.5,regional,850,380,Samaritan Health Services 2023
+SUNY Upstate University,700,30.0,True,1.0,academic,2200,900,SUNY Upstate 2023
+Spartanburgcare,550,45.0,True,3.0,regional,1100,480,Spartanburg Regional 2023
+Stillwater,120,65.0,False,2.0,community,180,75,Stillwater Medical Center 2023
+Providence Alaska,400,50.0,True,1.5,regional,850,350,Providence Alaska 2023
+TeamHealth (physician staffing),0,20.0,False,5.0,physician_group,10500,20000,TeamHealth 2023
+Prisma,2500,40.0,True,3.5,large_system,5500,2200,Prisma Health 2023
+TriHealth,1400,20.0,True,2.8,large_system,2800,1200,TriHealth 2023
+Trinity (CA/IN/GA),600,12.0,True,1.5,large_system,1200,500,Trinity Health 2023
+Prairie Lakescare System,120,55.0,False,2.0,critical_access,180,65,Prairie Lakes Healthcare 2023
+Powers (Communitycare),250,25.0,False,1.5,community,350,140,Powers Health 2023
+Piedmontcare,2500,25.0,True,4.5,large_system,5200,2100,Piedmont Healthcare 2023
+Montefiore,2100,15.0,True,0.5,academic,6500,3500,Montefiore 2023
+Abrazo (Tenetcare),500,8.0,False,2.5,large_system,650,280,Tenet/Abrazo 2023
+MercyOne,1200,35.0,True,2.2,large_system,2400,950,MercyOne 2023
+Brookings,50,60.0,False,1.0,critical_access,85,35,Brookings Health System 2023
+Communitycare System,800,40.0,False,2.0,regional,1400,580,Community Healthcare IN 2023
+CommonSpirit hospitals (Colorado),1500,20.0,True,1.0,large_system,3200,1300,CommonSpirit Colorado 2023
+CommonSpirit (11 hospitals),1500,20.0,True,1.0,large_system,3200,1300,CommonSpirit 2023
+Comanche County Memorial,200,50.0,False,1.5,community,280,110,Comanche County 2023
+Chesapeake,310,40.0,False,2.5,community,450,180,Chesapeake Regional 2023
+Catawba Valley,250,55.0,False,3.0,community,380,160,Catawba Valley Medical 2023
+CaroMont,450,45.0,False,3.5,regional,750,320,CaroMont Health 2023
+Capital Women's Care,0,15.0,False,4.0,physician_group,180,200,Capital Women's Care 2023
+Cape Fear Valley,650,50.0,True,3.0,regional,1200,500,Cape Fear Valley 2023
+Cameron,60,65.0,False,0.5,critical_access,65,25,Cameron Regional 2023
+CHI Memorial,450,30.0,True,2.0,large_system,850,380,CHI Memorial 2023
+Broward,1550,20.0,True,3.5,large_system,2800,1100,Broward Health 2023
+Bronsoncare,650,45.0,True,2.5,regional,1200,500,Bronson Healthcare 2023
+Mercy (Springfield/Urbana),280,40.0,False,2.0,community,420,180,Mercy Health OH 2023
+Boston Children's,415,70.0,True,5.5,specialty_pediatric,3200,1500,Boston Children's 2023
+Bon Secours St. Francis,350,20.0,False,2.0,community,550,240,Bon Secours SC 2023
+Blessing,350,55.0,True,2.5,regional,650,280,Blessing Health 2023
+Bayhealth,450,45.0,False,3.0,regional,750,320,Bayhealth 2023
+Baton Rouge General,550,25.0,True,2.5,regional,950,420,Baton Rouge General 2023
+Ballad (21 hospitals),2200,75.0,True,4.0,large_system,3200,1400,Ballad Health 2023
+Aultman,550,35.0,True,2.0,regional,850,380,Aultman Health 2023
+Aspirus/St. Luke's,450,50.0,True,3.0,regional,850,380,Aspirus 2023
+Aspirus (St. Luke's),450,50.0,True,3.0,regional,850,380,Aspirus 2023
+Ascension Wisconsin,2000,18.0,True,1.5,large_system,3800,1500,Ascension Wisconsin 2023
+Arkansas Methodist,75,60.0,False,1.0,critical_access,85,35,AMMC 2023
+Albany,750,40.0,True,2.5,academic,1800,800,Albany Med 2023
+Conway,150,50.0,False,2.0,community,250,100,Conway Regional 2023
+Corewell,4500,35.0,True,3.5,large_system,9500,4000,Corewell Health 2023
+Dignity,8000,15.0,True,2.0,large_system,18000,7500,CommonSpirit/Dignity 2023
+Duke,1000,25.0,True,4.5,academic,7500,3200,Duke Health 2023
+Mercy (MO system),3500,25.0,True,3.0,large_system,7500,3100,Mercy 2023
+Mercy,3500,25.0,True,3.0,large_system,7500,3100,Mercy 2023
+Memorialcare System,1800,18.0,True,3.5,large_system,3800,1500,Memorial Healthcare FL 2023
+Memorial Sloan Kettering,514,35.0,True,2.5,specialty_cancer,7200,1350,MSK 2023
+Adena,250,55.0,False,2.5,regional,420,180,Adena Health 2023
+MUSC,800,35.0,True,3.5,academic,4200,1800,MUSC Health 2023
+Lifespan (4 hospitals),1200,45.0,True,2.0,academic,2800,1200,Lifespan 2023
+Lexington,450,30.0,True,3.5,regional,850,380,Lexington Medical 2023
+LMH,175,55.0,False,2.0,community,320,140,LMH Health 2023
+Kootenai,330,55.0,True,4.0,regional,850,380,Kootenai Health 2023
+Kimball Services,25,70.0,False,0.5,critical_access,35,12,Kimball Health 2023
+Kettering,1100,25.0,True,3.0,large_system,2200,950,Kettering Health 2023
+Johns Hopkins Medicine,1150,25.0,True,4.1,academic,12500,4800,Johns Hopkins 2023
+Johns Hopkins All Children's,260,60.0,True,3.5,specialty_pediatric,850,400,Johns Hopkins All Children's 2023
+Jefferson,1800,18.0,True,2.0,academic,6500,2800,Jefferson Health 2023
+Infirmary,550,40.0,True,2.5,regional,950,420,Infirmary Health 2023
+Huntsville,900,50.0,True,4.0,regional,1800,750,Huntsville Hospital 2023
+HillcrestCare System,850,35.0,True,3.0,large_system,1500,650,Hillcrest HealthCare 2023
+HMSA Provider Network,0,50.0,False,3.0,physician_network,2500,2000,HMSA Hawaii 2023
+HCAcare (38 hospitals),8500,15.0,True,12.0,large_system,12500,5000,HCA Texas 2023
+Great Plains,100,60.0,False,1.5,critical_access,150,55,Great Plains Health 2023
+EvergreenHealth,320,25.0,True,3.5,community,750,320,EvergreenHealth 2023
+Essentia,1100,40.0,True,2.5,regional,2200,950,Essentia Health 2023
+Envisioncare,0,15.0,False,4.0,physician_group,8500,15000,Envision Healthcare 2023
+ECU,950,45.0,True,2.0,academic,2400,1000,ECU Health 2023
+Main Line,750,15.0,True,4.0,large_system,1800,780,Main Line Health 2023

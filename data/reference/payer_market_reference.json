@@ -1,0 +1,126 @@
+{
+  "national_ma_enrollment_2024": {
+    "UnitedHealthcare": {
+      "total_members_millions": 7.5,
+      "market_share_pct": 28
+    },
+    "Humana": {
+      "total_members_millions": 5.5,
+      "market_share_pct": 20
+    },
+    "CVS/Aetna": {
+      "total_members_millions": 3.8,
+      "market_share_pct": 14
+    },
+    "Elevance/Anthem": {
+      "total_members_millions": 2.2,
+      "market_share_pct": 8
+    },
+    "Cigna": {
+      "total_members_millions": 0.6,
+      "market_share_pct": 2
+    },
+    "Kaiser": {
+      "total_members_millions": 1.8,
+      "market_share_pct": 7
+    }
+  },
+  "state_ma_enrollment_estimates": {
+    "CA": {"total_ma": 3200000, "top_payer": "Kaiser", "top_share": 35},
+    "FL": {"total_ma": 3100000, "top_payer": "Humana", "top_share": 25},
+    "TX": {"total_ma": 1800000, "top_payer": "UnitedHealthcare", "top_share": 30},
+    "NY": {"total_ma": 1600000, "top_payer": "UnitedHealthcare", "top_share": 22},
+    "PA": {"total_ma": 1100000, "top_payer": "Highmark", "top_share": 28},
+    "OH": {"total_ma": 900000, "top_payer": "UnitedHealthcare", "top_share": 25},
+    "MI": {"total_ma": 700000, "top_payer": "UnitedHealthcare", "top_share": 28},
+    "NC": {"total_ma": 650000, "top_payer": "UnitedHealthcare", "top_share": 30},
+    "GA": {"total_ma": 600000, "top_payer": "UnitedHealthcare", "top_share": 25},
+    "AZ": {"total_ma": 550000, "top_payer": "UnitedHealthcare", "top_share": 32},
+    "NJ": {"total_ma": 500000, "top_payer": "Horizon", "top_share": 30},
+    "TN": {"total_ma": 450000, "top_payer": "UnitedHealthcare", "top_share": 28},
+    "VA": {"total_ma": 400000, "top_payer": "UnitedHealthcare", "top_share": 25},
+    "MA": {"total_ma": 380000, "top_payer": "UnitedHealthcare", "top_share": 22},
+    "MN": {"total_ma": 350000, "top_payer": "UnitedHealthcare", "top_share": 35},
+    "WA": {"total_ma": 340000, "top_payer": "UnitedHealthcare", "top_share": 28},
+    "MO": {"total_ma": 320000, "top_payer": "UnitedHealthcare", "top_share": 30},
+    "SC": {"total_ma": 280000, "top_payer": "Humana", "top_share": 28},
+    "IN": {"total_ma": 270000, "top_payer": "UnitedHealthcare", "top_share": 30},
+    "MD": {"total_ma": 260000, "top_payer": "UnitedHealthcare", "top_share": 25},
+    "OR": {"total_ma": 240000, "top_payer": "UnitedHealthcare", "top_share": 30},
+    "KY": {"total_ma": 220000, "top_payer": "Humana", "top_share": 40},
+    "CT": {"total_ma": 200000, "top_payer": "Aetna", "top_share": 35},
+    "OK": {"total_ma": 180000, "top_payer": "UnitedHealthcare", "top_share": 32},
+    "AR": {"total_ma": 140000, "top_payer": "UnitedHealthcare", "top_share": 35},
+    "RI": {"total_ma": 80000, "top_payer": "UnitedHealthcare", "top_share": 30},
+    "ID": {"total_ma": 75000, "top_payer": "UnitedHealthcare", "top_share": 35},
+    "SD": {"total_ma": 40000, "top_payer": "UnitedHealthcare", "top_share": 40},
+    "ND": {"total_ma": 25000, "top_payer": "UnitedHealthcare", "top_share": 45},
+    "LA": {"total_ma": 320000, "top_payer": "Humana", "top_share": 28},
+    "NE": {"total_ma": 85000, "top_payer": "UnitedHealthcare", "top_share": 32},
+    "NV": {"total_ma": 180000, "top_payer": "UnitedHealthcare", "top_share": 30},
+    "IL": {"total_ma": 650000, "top_payer": "UnitedHealthcare", "top_share": 22},
+    "KS": {"total_ma": 120000, "top_payer": "UnitedHealthcare", "top_share": 28},
+    "CO": {"total_ma": 320000, "top_payer": "UnitedHealthcare", "top_share": 25},
+    "IA": {"total_ma": 180000, "top_payer": "UnitedHealthcare", "top_share": 28},
+    "AL": {"total_ma": 280000, "top_payer": "UnitedHealthcare", "top_share": 25},
+    "MS": {"total_ma": 120000, "top_payer": "Humana", "top_share": 30},
+    "ME": {"total_ma": 95000, "top_payer": "Aetna", "top_share": 25},
+    "DE": {"total_ma": 45000, "top_payer": "Aetna", "top_share": 30},
+    "WI": {"total_ma": 350000, "top_payer": "UnitedHealthcare", "top_share": 25}
+  },
+  "hospital_market_share_benchmarks": {
+    "dominant_regional_system": {
+      "description": "Only major system in region (e.g., Ballad Health, Sanford in rural areas)",
+      "market_share_range": [0.60, 0.85]
+    },
+    "major_academic_center": {
+      "description": "Flagship academic medical center (e.g., Mass General, Johns Hopkins)",
+      "market_share_range": [0.25, 0.45]
+    },
+    "large_community_system": {
+      "description": "Multi-hospital community system (e.g., Piedmont, WakeMed)",
+      "market_share_range": [0.20, 0.35]
+    },
+    "mid_size_system": {
+      "description": "2-5 hospital system in competitive market",
+      "market_share_range": [0.10, 0.20]
+    },
+    "single_hospital": {
+      "description": "Standalone hospital in metro area",
+      "market_share_range": [0.05, 0.12]
+    }
+  },
+  "estimation_formula_quick_reference": {
+    "ma_dispute": {
+      "formula": "state_ma_enrollment × payer_state_share × hospital_market_share",
+      "example": {
+        "state": "MN",
+        "payer": "Humana",
+        "hospital": "Mayo Clinic",
+        "calculation": "350000 × 0.15 × 0.25 = 13,125 patients"
+      }
+    },
+    "commercial_dispute": {
+      "formula": "hospital_annual_patients × payer_commercial_share × 0.8",
+      "note": "0.8 factor accounts for payer mix variation",
+      "example": {
+        "hospital": "Jefferson Health",
+        "annual_unique_patients": 500000,
+        "payer": "Cigna",
+        "payer_share": 0.10,
+        "calculation": "500000 × 0.10 × 0.8 = 40,000 patients"
+      }
+    }
+  },
+  "known_patient_counts_for_calibration": {
+    "johns_hopkins_uhc_2025": {"reported": 60000, "state": "MD", "type": "MA+Commercial"},
+    "unc_health_uhc_2023": {"reported": 200000, "state": "NC", "type": "Commercial"},
+    "m_health_fairview_uhc_2024": {"reported": 125000, "state": "MN", "type": "Commercial"},
+    "wellstar_uhc_2022": {"reported": 80000, "state": "GA", "type": "Unknown"},
+    "scripps_all_ma_2024": {"reported": 30000, "state": "CA", "type": "All MA"},
+    "mercy_mo_bcbs_2024": {"reported": 500000, "state": "MO", "type": "Commercial"},
+    "kootenai_regence_2025": {"reported": 11000, "state": "ID", "type": "Commercial"},
+    "south_shore_uhc_2025": {"reported": 3900, "state": "MA", "type": "Unknown"},
+    "phoenix_childrens_uhc_2025": {"reported": 17000, "state": "AZ", "type": "Unknown"}
+  }
+}

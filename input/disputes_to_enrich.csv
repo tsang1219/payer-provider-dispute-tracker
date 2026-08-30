@@ -1,0 +1,221 @@
+dispute_id,system_name,insurer_name,state,year_first_reported,quarter_first_reported,outcome_status,primary_source,first_media_date,deadline_date,resolution_date,leading_factors,patients_affected,resolution_terms,notes
+1,Dignity Health,Anthem Blue Cross,CA,2021,Q3,Resolved,Fierce Healthcare,,,,,,,Multiyear deal reached Aug 2021
+2,Montefiore Health System,UnitedHealthcare (UnitedHealth Group),NY,2021,Q1,Resolved,City Limits,,,2021-12,,,,11 months OON; RESOLVED Dec 2021
+3,Northside Hospital,Anthem Blue Cross Blue Shield (Elevance Health),GA,2021,Q2,Resolved,Becker's Hospital Review,,,,,,,Court injunction Dec 2021; resolved July 2022
+4,Wellstar Health System,UnitedHealthcare (UnitedHealth Group),GA,2021,Q4,Resolved,Georgia Health News,,,2022-07-01,,80000,,"80,000 patients; Contract expired Oct 3, 2021; RESOLVED July 1, 2022 with 4-year deal through 2026"
+5,Catawba Valley Medical Center,UnitedHealthcare (UnitedHealth Group),NC,2021,Q4,Resolved,Becker's Hospital Review,,,2021-10-28,,,,"OON Oct 1, 2021; RESOLVED Oct 28, 2021 with multi-year deal retroactive to Oct 1; UHC said rates highest in county"
+6,Northside Hospital Gwinnett,UnitedHealthcare (UnitedHealth Group),GA,2021,Q2,Resolved,Modern Healthcare,,,,,,,5 months OON; resolved Aug 2021
+7,Northeast Georgia Health System,Anthem (Elevance Health),GA,2021,Q2,Resolved,Modern Healthcare,,,,,,,3 months OON
+8,TeamHealth (physician staffing),UnitedHealthcare (UnitedHealth Group),NV,2021,Q4,Resolved,Modern Healthcare,,,,,,,$62.65M jury award Dec 2021
+9,Northside Hospital,Anthem Blue Cross Blue Shield (Elevance Health),GA,2022,Q1,Resolved,Becker's Hospital Review,,,2022-07,,,,Court injunction extended to Feb 2022; RESOLVED July 2022
+10,Lehigh Valley Health Network,Aetna (CVS Health),PA,2022,Q4,Resolved,The Morning Call,,,2022-11-22,,,,"Threatened OON March 2023; RESOLVED Nov 22, 2022 with immediate effect"
+11,SUNY Upstate University Hospital,UnitedHealthcare (UnitedHealth Group),NY,2022,Q4,Resolved,Becker's Hospital Review,,,2023-02,,,,Cooling-off period through Feb 2023; RESOLVED
+12,Memorial Hermann Health System,Blue Cross Blue Shield of Texas,TX,2022,Q3,Resolved,Houston Public Media,,,,,,,Resolved days after going OON
+13,WakeMed Health,UnitedHealthcare (UnitedHealth Group),NC,2022,Q4,Resolved,WUNC,,,,,,,Contract expired; later resolved
+14,Wellstar Health System,UnitedHealthcare (UnitedHealth Group),GA,2022,Q4,Resolved,KFF Health News,,,2022-07-01,,80000,,"80,000 patients; RESOLVED July 1, 2022 with 4-year deal through 2026"
+15,Methodist Health Care,Blue Cross Blue Shield of Tennessee,TN,2022,Q3,Resolved,Commercial-Appeal,,,,,,,Resolved June 2023
+16,Community Healthcare System,Aetna (CVS Health),IN,2022,Q4,OON-Permanent,NWI Times,,,,,,,Commercial resolved Jan 2023; MA plans (Aetna/Humana) terminated June 2024 - system cites denial rates
+17,Tryon Medical Partners,Humana,NC,2022,Q4,Resolved,NC State Health Plan,,,2026-01-01,,200000,,"200,000 patients; OON Jan 2023-Dec 2025; RESOLVED - new agreement for 2026 announced"
+18,Northeast Georgia Health System,Anthem (Elevance Health),GA,2022,Q2,Resolved,Georgia Health News,,,,,,,"40,000 patients; 3 months OON"
+19,VCU Health,Anthem (Elevance Health),VA,2022,Q3,Resolved,KFF Health News,,,2023-08,,,,Hundreds of millions unpaid claims; RESOLVED Aug 2023 with multi-year deal including value-based programs
+20,Envision Healthcare,UnitedHealthcare (UnitedHealth Group),National,2022,Q1,Resolved,Healthcare Dive,,,,,,,Contract extension; $91.2M arbitration award 2023
+21,Chesapeake Regional Medical Center,Cigna,VA,2023,Q2,Resolved,Virginia Mercury,,,2023-08,,,,20+ year contract; Cigna threatened termination June 2023; RESOLVED Aug 2023 with deal through July 2025
+22,WakeMed,Humana,NC,2023,Q4,OON-Permanent,WakeMed Official,,,,,,,WakeMed-Humana: No contact to reconsider since Oct 2023; not expected in-network 2025
+23,Piedmont Healthcare,Humana,GA,2023,Q3,Resolved,Piedmont Healthcare,,,2023-09-14,,,,"Hospital facilities; OON Sept 7, 2023; RESOLVED Sept 14, 2023 - one week later with new agreement"
+24,Scripps Clinic Medical Group,All Medicare Advantage Plans,CA,2023,Q4,OON-Permanent,ClearHealthCosts,,,,,,,"Scripps: Decision final - dropped all MA plans 2024, continues through 2026"
+25,EvergreenHealth,Premera Blue Cross,WA,2023,Q1,Resolved,Premera Blue Cross,,,2023-04,,,,"Threatened OON April 1, 2023; RESOLVED before deadline with multi-year value-based agreement"
+26,Bon Secours Mercy Health,Anthem Blue Cross Blue Shield (Elevance Health),OH,2023,Q2,OON-Ongoing,Healthcare Dive,,,,,,,$93M unpaid claims lawsuit; status unclear
+27,Genesis Healthcare System,Elevance Health/Humana,OH,2023,Q3,OON-Permanent,Healthcare Dive,,,,,,,Genesis: Dropped Humana/Anthem MA Jan 2024; still out for 2025
+28,WellSpan Health,Humana,PA,2023,Q3,OON-Permanent,Healthcare Dive,,,,,,,MA plans terminated Jan 1 2025; also dropped UHC MA; no resolution expected
+29,Ascension Texas,Blue Cross Blue Shield of Texas,TX,2023,Q4,Resolved,KVUE,,,,,,,New dispute emerging for 2026
+30,Arkansas Methodist Medical Center,Humana,AR,2023,Q4,OON-Permanent,AMMC Official,,,,,,,"Terminated Dec 1, 2023; cited excessive denials and admin burden; no resolution found"
+31,Hillcrest HealthCare System,UnitedHealthcare (UnitedHealth Group),OK,2023,Q2,Resolved,Becker's/KTUL,,,2023-04-27,,,,"6 hospitals, 80+ clinics; threatened OON May 2023; RESOLVED April 27, 2023 for all UHC commercial and MA plans"
+32,CaroMont,UnitedHealthcare (UnitedHealth Group),NC,2023,Q1,Resolved,WSOC TV,,,2024-03,,,,2+ years failed negotiations; threatened OON April 2024; RESOLVED March 2024 with deal through March 2025
+33,UNC Health,UnitedHealthcare (UnitedHealth Group),NC,2023,Q4,Resolved,WUNC,,,2024-03-28,,,,"200,000 patients; deadline April 1, 2024; RESOLVED March 28, 2024 with long-term multi-year deal"
+34,Providence,Blue Shield of California,CA,2023,Q3,Resolved,Healthcare Dive,,,2024-05-03,,,,"Blue Shield posted $910M loss; threatened OON June 2024; RESOLVED May 3, 2024; Providence rescinded termination"
+35,Baton Rouge General,Aetna (CVS Health),LA,2023,Q3,Resolved,Becker's Payer,,,2024-11-01,,,,OON Nov 2022; cited half reimbursement of competitors; RESOLVED Sept 2024 effective Nov 1 2024
+36,Baptist Health,UnitedHealthcare (UnitedHealth Group)/WellCare (Centene),KY,2023,Q4,OON-Permanent,ClearHealthCosts,,,,,,,Multiple MA contracts dropped Jan 2024; no resolution as of March 2024; 2+ years without deal
+37,Albany Medical Center,Humana,NY,2023,Q3,OON-Permanent,Daily Gazette,,,,,,,All 4 Albany Med hospitals OON from Humana MA July 1 2024; no resolution announced
+38,Allina Health,Humana,MN,2023,Q3,OON-Permanent,Minnesota AG Office,,,,,,,Allina-Humana: OON Jan 2025; no negotiations underway
+39,Avera,Humana,SD,2023,Q4,OON-Ongoing,Minnesota AG Office,,,,,,,MA contract dropped
+40,M Health Fairview,Humana,MN,2023,Q3,OON-Permanent,Minnesota AG Office,,,,,,,OON since 2020; confirmed still out for 2025; also dropped Aetna MA 2025; no negotiations underway
+41,North Memorial Medical Center,Humana,MN,2023,Q3,OON-Permanent,Minnesota AG Office,,,,,,,North Memorial-Humana: Contract terminated Dec 2024; no resolution found
+42,Jefferson Health,Cigna,PA,2023,Q4,Resolved,Healthcare Dive,,,2025-04-04,,,,"32 hospitals, 700+ locations; rates unchanged since 2020; OON March 15-April 4, 2025; RESOLVED with multi-year deal retroactive to March 15"
+43,Main Line Health,Cigna,PA,2023,Q4,Resolved,Healthcare Dive,,,,,,,Resolved Feb 2024
+44,Mount Sinai Health System,UnitedHealthcare (UnitedHealth Group),NY,2023,Q1,Resolved,Healthcare Dive,,,,,,,Averted OON March 2023
+45,Stillwater Medical Center,All Medicare Advantage Plans,OK,2023,Q3,OON-Permanent,Becker's Hospital Review,,,,,,,Dropped all MA Jan 2023; 22% denial rate vs <1% traditional Medicare; decision final
+46,Conway Regional Health System,UnitedHealthcare (UnitedHealth Group),AR,2023,Q3,Resolved,Arkansas Democrat-Gazette,,,2023-08-15,,15000,,"15,000 patients; OON July 1 2023; UHC said 141% hike demand; RESOLVED Aug 15 2023; new deal through Oct 2025"
+47,Prisma Health,UnitedHealthcare (UnitedHealth Group),SC,2024,Q1,Resolved,Greenville Business Magazine,,,,,,,"Contract expired Jan 1, 2024"
+48,Samaritan Health Services,UnitedHealthcare (UnitedHealth Group),OR,2024,Q1,OON-Permanent,Becker's Hospital Review,,,,,,,"OON Jan 9, 2024; cited 10x denial rate; 12+ months no resolution"
+49,St. Charles Health System,Humana/Centene,OR,2024,Q1,OON-Permanent,Becker's Hospital Review,,,,,,,Humana Jan 1; Centene Feb 1; 12+ months no resolution
+50,Baptist Health,UnitedHealthcare (UnitedHealth Group)/WellCare (Centene),KY,2024,Q1,OON-Ongoing,Becker's Hospital Review,,,,,,,"OON Jan 1, 2024"
+51,Scripps Health,All Medicare Advantage Plans,CA,2024,Q1,OON-Permanent,Becker's Hospital Review,,,,,,,"30,000 seniors; $75M loss cited; dropped ALL MA - categorical exit"
+52,Brookings Health System,All Medicare Advantage Plans,SD,2024,Q1,OON-Permanent,Becker's/KFF,,,,,,,Dropped nearly all MA - categorical exit
+53,Cameron Regional Medical Center,Aetna (CVS Health)/Humana,MO,2024,Q1,OON-Permanent,Becker's Hospital Review,,,,,,,12+ months no resolution
+54,Genesis Healthcare System,Anthem Blue Cross Blue Shield (Elevance Health)/Humana,OH,2024,Q1,OON-Permanent,Becker's Hospital Review,,,,,,,Dropped both MA contracts; 12+ months no resolution
+55,Southeast Georgia Health System,WellCare (Centene),GA,2024,Q1,OON-Permanent,Becker's Hospital Review,,,,,,,OON from Dec 2023; 12+ months no resolution
+56,Memorial Hermann Health System,Humana,TX,2024,Q1,OON-Permanent,JustCare,,,,,,,"Ended Jan 1, 2024; 12+ months no resolution"
+57,WellSpan Health,Humana/UnitedHealthcare,PA,2024,Q1,OON-Ongoing,Becker's Hospital Review,,,,,,,Both MA contracts dropped Jan 1
+58,Comanche County Memorial Hospital,UnitedHealthcare (UnitedHealth Group),OK,2024,Q2,OON-Permanent,JustCare,,,,,,,"Ended May 1, 2024; 8+ months no resolution"
+59,MU Health Care,Anthem (Elevance Health),MO,2024,Q2,Resolved,NPR/KFF Health News,,,,,,,OON April; resolved July
+60,Vanderbilt Health,Humana,TN,2024,Q2,OON-Ongoing,Becker's Hospital Review,,,,,,,OON April 2024
+61,Trinity Health of New England,UnitedHealthcare (UnitedHealth Group),CT,2024,Q2,Resolved,Hartford Business Journal,,,,,,,OON July 1; resolved Aug 19
+62,St. Peter's Health Partners,UnitedHealthcare (UnitedHealth Group),NY,2024,Q2,Resolved,Becker's/STAT News,,,,,,,Part of Trinity dispute
+63,Memorial Sloan Kettering Cancer Center,UnitedHealthcare (UnitedHealth Group),NY,2024,Q2,Resolved,NPR/STAT News,,,,,,,Resolved July 1 (next day deal)
+64,Johns Hopkins All Children's Hospital,UnitedHealthcare (UnitedHealth Group),FL,2024,Q2,Resolved,Becker's Hospital Review,,,,,,,OON May 11; resolved July 1
+65,Infirmary Health,UnitedHealthcare (UnitedHealth Group),AL,2024,Q2,OON-Permanent,Infirmary Health Press,,,,,,,"OON June 4, 2024; 7+ months no resolution"
+66,Broward Health,Florida Blue,FL,2024,Q2,OON-Permanent,Sun Sentinel,,,,,,,"OON July 1, 2024; 6+ months no resolution"
+67,Powers Health (Community Healthcare),Humana/Aetna (CVS Health),IN,2024,Q2,OON-Permanent,Becker's Hospital Review,,,,,,,"OON June 1, 2024; 7+ months no resolution"
+68,Trinity Health (CA/IN/GA),UnitedHealthcare (UnitedHealth Group),CA,2024,Q3,Resolved,STAT News,,,,,,,OON July; resolved late July
+69,Aultman Health System,Humana,OH,2024,Q3,OON-Ongoing,Becker's/Newsweek,,,,,,,"OON July 1; 7,000 patients"
+70,Albany Med Health System,Humana,NY,2024,Q3,OON-Ongoing,CBS6 Albany,,,,,,,4 hospitals; OON July 1
+71,Cape Fear Valley Health,UnitedHealthcare (UnitedHealth Group),NC,2024,Q3,OON-Ongoing,Modern Healthcare,,,,,,,OON July 2024
+72,HealthPartners,UnitedHealthcare (UnitedHealth Group),MN,2024,Q3,Resolved,Newsweek/Star Tribune,,,2024-11-05,,30000,,"30,000 MA patients; 10x denial rate cited; RESOLVED Nov 2024 with multi-year deal addressing prior auth concerns"
+73,HCA Healthcare (38 hospitals),UnitedHealthcare (UnitedHealth Group),TX,2024,Q3,Resolved,STAT News,,,,,,,"Resolved Sept 1, 2024 (last minute)"
+74,University of Florida Health,UnitedHealthcare (UnitedHealth Group),FL,2024,Q3,Resolved,Healthcare Brew,,,,,,,OON Sept 1; later resolved
+75,Mercy Health System,Anthem Blue Cross Blue Shield (Elevance Health),MO,2024,Q3,Resolved,Mercy Press Release,,,,,,,Threatened Jan 2025; resolved Dec 2024
+76,NCH Healthcare System,Florida Blue,FL,2024,Q3,Resolved,South Florida Hospital News,,,,,,,Negotiations Q3; eventually resolved
+77,Northern Light Health (10 hospitals),Humana,ME,2024,Q3,OON-Ongoing,WABI News,,,,,,,"Terminated Sept 30, 2024"
+78,HealthPartners,Humana,MN,2024,Q3,OON-Ongoing,Star Tribune,,,,,,,"13,000 patients"
+79,Hartford HealthCare,Cigna,CT,2024,Q4,Resolved,Hartford Business Journal,,,2024-10-31,,,,"Threatened OON Nov 1, 2024; resolved Oct 31; expanded value-based care programs"
+80,Hartford HealthCare,UnitedHealthcare (UnitedHealth Group),CT,2025,Q1,Resolved,CT News Junkie,,,2025-04-02,,600000,,"600,000 UHC members in CT; contract expired late March 2025; resolved April 2; multiyear deal"
+81,Huntsville Hospital Health System,UnitedHealthcare (UnitedHealth Group),AL,2024,Q4,Resolved,WHNT News,,,,,,,Contract terminated Oct 10; resolved Nov 14
+82,Duke Health,Aetna (CVS Health),NC,2024,Q4,Resolved,NPR/KFF Health News,,,,,,,Negotiations Q4; resolved before Oct 20 deadline
+83,NewYork-Presbyterian,Healthfirst,NY,2024,Q4,Resolved,Gothamist,,,,,,,Threatened Nov 2024; resolved
+84,North Memorial Health,Humana,MN,2024,Q4,OON-Ongoing,Becker's Hospital Review,,,,,,,"OON Dec 31, 2024"
+85,Essentia Health,Humana,MN,2024,Q4,OON-Ongoing,Becker's Hospital Review,,,,,,,OON 2025
+86,North Kansas City Hospital/Meritas Health,Aetna (CVS Health),MO,2024,Q4,OON-Ongoing,Becker's Hospital Review,,,,,,,"OON Oct 1, 2024"
+87,Vanderbilt Health,Blue Cross Blue Shield of Tennessee,TN,2024,Q4,OON-Ongoing,Becker's Hospital Review,,,,,,,MA OON 2025
+88,Avera Health,Humana,SD,2024,Q4,OON-Ongoing,Becker's Hospital Review,,,,,,,"OON Dec 31, 2024"
+89,Sanford Health,Humana,MN,2024,Q4,OON-Ongoing,Becker's Hospital Review,,,,,,,OON 2025 in Minnesota
+90,Great Plains Health,All Medicare Advantage Plans,NE,2024,Q4,OON-Permanent,Becker's Hospital Review,,,,,,,Dropped all MA for 2025 - categorical exit
+91,Kimball Health Services,All Medicare Advantage Plans,NE,2024,Q4,OON-Permanent,Becker's Hospital Review,,,,,,,Dropped all MA for 2025 - categorical exit
+92,Prairie Lakes Healthcare System,Humana,SD,2024,Q4,OON-Ongoing,Becker's Hospital Review,,,,,,,OON 2025
+93,MyMichigan Health,Aetna (CVS Health),MI,2024,Q4,OON-Ongoing,Becker's Hospital Review,,,,,,,"OON Dec 31, 2024"
+94,Carson Tahoe Health,UnitedHealthcare (UnitedHealth Group),NV,2024,Q4,OON-Ongoing,Becker's Hospital Review,,,,,,,"OON May 30, 2025 announced"
+95,WVU Medicine Uniontown Hospital,Highmark PA/Wholecare,PA,2024,Q4,OON-Ongoing,Becker's Hospital Review,,,,,,,OON 2025
+96,Providence Health,Aetna (CVS Health),OR,2024,Q4,OON-Ongoing,Oregon sources,,,,,,,"Contract expired Dec 31, 2024; 9,000 patients"
+97,ECU Health,Humana,NC,2024,Q1,OON-Permanent,Becker's Hospital Review,,,,,,,Dropped Humana MA Jan 2024; 12+ months no resolution
+98,CHI Memorial,Blue Cross Blue Shield of Tennessee Network S,TN,2024,Q3,OON-Ongoing,CommonSpirit,,,,,,,OON Network S July 1
+99,Bon Secours Mercy Health,Anthem (Elevance Health),VA,2024,Q3,OON-Ongoing,Becker's Hospital Review,,,,,,,"11,000 members OON Aug 1"
+100,Adena Health System,Anthem (Elevance Health),OH,2024,Q3,OON-Ongoing,Becker's Hospital Review,,,,,,,Terminated agreement 2024
+101,Ohio State Wexner Medical Center,Anthem (Elevance Health),OH,2024,Q4,OON-Ongoing,Becker's Hospital Review,,,,,,,OON Anthem MA 2025
+102,Aspirus/St. Luke's Hospital,Blue Cross Blue Shield of Minnesota,MN,2024,Q3,Resolved,Star Tribune,,,,,,,Dispute Aug-Dec; resolved Dec 2024
+103,Baylor Scott \u0026 White,Blue Cross Blue Shield of Texas,TX,2024,Q3,Resolved,D Magazine,,,,,,,Threatened July 1; reached deal
+104,Baylor Scott \u0026 White,Humana,TX,2024,Q4,OON-Ongoing,Becker's Hospital Review,,,,,,,"OON Humana MA Jan 1, 2025"
+105,MercyOne,Humana,IA,2024,Q4,OON-Ongoing,Becker's Hospital Review,,,,,,,"OON Jan 1, 2025"
+106,CommonSpirit hospitals (Colorado),Humana,CO,2024,Q4,OON-Ongoing,Becker's Hospital Review,,,,,,,"OON Jan 1, 2025"
+107,Bayhealth,Humana/Cigna,DE,2024,Q4,OON-Ongoing,Becker's Hospital Review,,,,,,,"Terminated both Jan 1, 2025"
+108,Trinity Health Michigan,Humana,MI,2024,Q4,OON-Ongoing,Becker's Hospital Review,,,,,,,"OON Jan 1, 2025"
+109,Scripps Health,Anthem Blue Cross (Elevance Health),CA,2025,Q1,Resolved,Times of San Diego,,,,,,,Contract extension to Sept 2026
+110,Phoenix Children's Hospital,Blue Cross Blue Shield of Arizona,AZ,2025,Q1,Resolved,AZFamily,,,,,,,"Multi-year deal Feb 8, 2025"
+111,Phoenix Children's Hospital,Aetna (CVS Health),AZ,2025,Q1,Resolved,AZFamily,,,,,,,Resolved ~3 months after dropped
+112,M Health Fairview,Aetna (CVS Health),MN,2025,Q1,OON-Ongoing,Minnesota AG,,,,,,,MA contract dropped
+113,Allina Health,Humana,MN,2025,Q1,OON-Ongoing,ClearHealthCosts,,,,,,,MA contract dropped
+114,Mayo Clinic,HealthPartners,MN,2025,Q1,OON-Ongoing,ClearHealthCosts,,,,,,,MA contract dropped
+115,Blessing Health,Multiple MA Plans,IL,2025,Q1,OON-Ongoing,Becker's Hospital Review,,,,,,,New selective approach
+116,MU Health Care,Anthem (Elevance Health),MO,2025,Q2,Resolved,NPR/KFF Health News,,,,,,,"Contract expired April; 90,000 patients"
+117,Memorial Sloan Kettering Cancer Center,UnitedHealthcare (UnitedHealth Group),NY,2025,Q2,Resolved,CNN/MSK.org,,,,,,,"Multi-year deal July 1; 19,000 patients"
+118,Hackensack Meridian Health,Horizon Blue Cross Blue Shield of NJ,NJ,2025,Q2,OON-Ongoing,Lakewood Alerts,,,,,,,"Hospitals OON June 1, 2025"
+119,MUSC Health,Humana,SC,2025,Q2,OON-Ongoing,Becker's Hospital Review,,,,,,,Contract expired June 30
+120,Brown University Health,UnitedHealthcare (UnitedHealth Group),RI,2025,Q2,OON-Ongoing,Becker's Hospital Review,,,,,,,Mutual agreement OON July 1
+121,North Mississippi Health Services,UnitedHealthcare (UnitedHealth Group),MS,2025,Q2,OON-Ongoing,Becker's Hospital Review,,,,,,,OON June 1
+122,Phoenix Children's Hospital,UnitedHealthcare (UnitedHealth Group),AZ,2025,Q2,Resolved,AZFamily,,,,,,,"11th hour deal; 17,000 children"
+123,Johns Hopkins Medicine,UnitedHealthcare (UnitedHealth Group),MD,2025,Q3,OON-Ongoing,UnitedHealth Group/Modern Healthcare,,,,,,,"OON Aug 25; 60,000 patients"
+124,VCU Health,UnitedHealthcare (UnitedHealth Group),VA,2025,Q3,OON-Ongoing,Becker's Hospital Review,,,,,,,OON Sept 15 (except D-SNP)
+125,Memorial Healthcare System,Florida Blue,FL,2025,Q3,OON-Ongoing,Becker's Hospital Review,,,,,,,MA OON September 2025
+126,Iowa Specialty Hospitals,Multiple MA Plans,IA,2025,Q3,OON-Ongoing,Becker's Hospital Review,,,,,,,Dropping most MA for 2026
+127,Kettering Health,Humana/Devoted Health,OH,2025,Q3,OON-Ongoing,Becker's Hospital Review,,,,,,,Will not contract past 2025
+128,Mayo Clinic,UnitedHealthcare (UnitedHealth Group)/Humana,MN,2025,Q3,OON-Ongoing,Star Tribune/KTTC,,,,,,,"MA OON Jan 1, 2026"
+129,South Shore Health,UnitedHealthcare (UnitedHealth Group),MA,2025,Q3,OON-Ongoing,Boston Globe,,,,,,,"Hospital OON Jan 2026; 3,900 patients"
+130,South Shore Health,Tufts Health Direct (Point32Health),MA,2025,Q3,Resolved,Boston Globe,,,,,,,"Resolved Dec 2025; 2,200 patients"
+131,Kootenai Health,Regence BlueShield of Idaho,ID,2025,Q3,OON-Ongoing,Idaho Capital Sun,,,,,,,"Impasse; Jan 2026 deadline; 11,000 patients"
+132,UConn Health,Aetna (CVS Health),CT,2025,Q3,OON-Ongoing,Hartford Courant,,,,,,15000,"Contract expired Dec 2025; 15,000 patients; cooling-off period"
+133,Bronson Healthcare,UnitedHealthcare (UnitedHealth Group),MI,2025,Q3,OON-Ongoing,WZZM,,,,,,,"Extended through Jan 31, 2026"
+134,Corewell Health,UnitedHealthcare (UnitedHealth Group),MI,2025,Q3,OON-Ongoing,WZZM,,,,,,,"Potential OON Jan 1, 2026"
+135,MultiCare,All MA PPO Plans,WA,2025,Q3,OON-Ongoing,Becker's Hospital Review,,,,,,,Dropping all MA PPO for 2026
+136,NewYork-Presbyterian,UnitedHealthcare (UnitedHealth Group),NY,2025,Q3,OON-Ongoing,Becker's Hospital Review,,,,,,,MA OON 2026
+137,UNC Health,Humana/WellCare (Centene)/HCSC,NC,2025,Q3,OON-Ongoing,Becker's Hospital Review,,,,,,,MA OON 2026
+138,Lehigh Valley Health Network,UnitedHealthcare (UnitedHealth Group),PA,2025,Q1,OON-Ongoing,Becker's Hospital Review,,,,,,,MA OON Jan 2025
+139,Mass General Brigham,UnitedHealthcare (UnitedHealth Group)/BCBS of Massachusetts,MA,2025,Q1,OON-Ongoing,Becker's Hospital Review,,,,,,,Primary care MA OON Jan 2025
+140,WakeMed,Humana/UnitedHealthcare (UnitedHealth Group),NC,2025,Q1,OON-Ongoing,Becker's Hospital Review,,,,,,,"Humana Jan 1; UHC Nov 15, 2025"
+141,Southwestern Health Resources/Texas Health/UT Southwestern,Aetna (CVS Health),TX,2025,Q1,OON-Ongoing,Becker's Hospital Review,,,,,,,MA OON 2025
+142,LMH Health,Aetna (CVS Health)/Humana,KS,2025,Q1,OON-Ongoing,Becker's Hospital Review,,,,,,,"MA OON Jan 1, 2025"
+143,Capital Women's Care,UnitedHealthcare (UnitedHealth Group),MD,2025,Q3,OON-Ongoing,Healthcare sources,,,,,,,OON Aug 2025; OB/GYN practice
+144,Salem Health,Regence BlueCross BlueShield,OR,2025,Q1,OON-Ongoing,Salem Reporter,,,,,,,"OON Jan 1; 30,000 affected; 35% vs 3.4% offers"
+145,Centra Health,Humana,VA,2025,Q3,OON-Ongoing,Becker's Hospital Review,,,,,,,Dropping Humana MA 2026
+146,Montrose Regional Health,Humana,CO,2025,Q3,OON-Ongoing,Becker's Hospital Review,,,,,,,Ending Humana MA 2026
+147,Ballad Health (21 hospitals),Cigna,TN,2024,Q4,OON-Ongoing,Ballad Health,,,,,,,"OON Dec 31, 2024; commercial/Marketplace"
+148,Bon Secours St. Francis Health,Cigna,SC,2024,Q4,OON-Ongoing,FOX Carolina,,,,,,,"OON Cigna MA Jan 1, 2025"
+149,Spartanburg Regional Healthcare,Cigna,SC,2024,Q4,OON-Ongoing,WYFF4,,,,,,,"OON Dec 31, 2024; commercial"
+150,Mercy Health (Springfield/Urbana),Cigna,OH,2025,Q1,Unknown,Dayton Daily News,,,,,,,Potential OON April 2025; rates unchanged 6 years
+151,Lifespan (4 hospitals),Cigna,RI,2024,Q3,Unknown,Boston Globe,,,,,,,Contract dispute; letters to patients
+152,Southwestern Health Resources/UT Southwestern/Texas Health,Blue Cross Blue Shield of Texas,TX,2025,Q2,OON-Ongoing,FOX4 Dallas,,,,,,,"OON April 1, 2025"
+153,Mercy (MO system),Blue Cross Blue Shield/Anthem,MO,2024,Q4,Unknown,First Alert 4,,,,,,,"500,000 patients; threatened April 2025"
+154,Lexington Medical Center,Aetna (CVS Health),SC,2025,Q1,OON-Ongoing,WIS TV,,,,,,,"OON all Aetna plans Feb 1, 2025"
+155,Ascension Texas,Blue Cross Blue Shield of Texas,TX,2025,Q3,Unknown,KVUE,,,,,,,Ongoing negotiations; 2026 deadline
+156,M Health Fairview,UnitedHealthcare (UnitedHealth Group),MN,2025,Q1,Resolved,Star Tribune,,,,,,,"MA resolved; commercial ongoing (100,000 patients)"
+157,FTI Aggregate - 2022 Unnamed,Multiple Insurers,Multiple,2022,Q1-Q4,Unknown,FTI Q4 2022 Report,,,,,,,FTI aggregate count - 36 additional disputes not individually named
+158,FTI Aggregate - 2023 Unnamed,Multiple Insurers,Multiple,2023,Q1-Q4,Unknown,FTI 2023 Report,,,,,,,FTI aggregate count - 62 additional disputes not individually named
+159,FTI Aggregate - Q1 2024 Unnamed,Multiple Insurers,Multiple,2024,Q1,Unknown,FTI Q1 2024 Report,,,,,,,FTI aggregate count - estimated 5 additional disputes not individually named
+160,FTI Aggregate - Q2 2024 Unnamed,Multiple Insurers,Multiple,2024,Q2,Unknown,FTI Q2 2024 Report,,,,,,,FTI aggregate count - estimated 5 additional disputes not individually named
+161,FTI Aggregate - Q3 2024 Unnamed,Multiple Insurers,Multiple,2024,Q3,Unknown,FTI Q3 2024 Report,,,,,,,FTI aggregate count - estimated 15 additional disputes not individually named
+162,FTI Aggregate - Q4 2024 Unnamed,Multiple Insurers,Multiple,2024,Q4,Unknown,FTI Q4 2024 Report,,,,,,,FTI aggregate count - estimated 25 additional disputes not individually named
+163,FTI Aggregate - Q1 2025 Unnamed,Multiple Insurers,Multiple,2025,Q1,Unknown,FTI Q1 2025 Report,,,,,,,FTI aggregate count - estimated 10 additional disputes not individually named
+164,FTI Aggregate - Q2 2025 Unnamed,Multiple Insurers,Multiple,2025,Q2,Unknown,FTI Q2 2025 Report,,,,,,,FTI aggregate count - estimated 15 additional disputes not individually named
+165,FTI Aggregate - Q3 2025 Unnamed,Multiple Insurers,Multiple,2025,Q3,Unknown,FTI Q3 2025 Report,,,,,,,FTI aggregate count - estimated 20 additional disputes not individually named
+166,Centra Health,Humana,VA,2024,Q4,OON-Ongoing,Becker's Hospital Review,,,,,,,Announced dropping Humana MA for 2026
+167,Carson Tahoe Health,Multiple MA Plans,NV,2025,Q2,OON-Ongoing,Record-Courier,,,,,,,Stopped accepting most MA throughout 2025
+168,Hackensack Meridian Health,Aetna (CVS Health),NJ,2024,Q3,Unknown,Patch,,,,,,,Threatened OON July 2024
+169,NewYork-Presbyterian,UnitedHealthcare (UnitedHealth Group),NY,2024,Q4,OON-Ongoing,Becker's Hospital Review,,,,,,,Announced MA exit for 2026
+170,UNC Health,Humana/WellCare (Centene)/HCSC,NC,2024,Q4,OON-Ongoing,Becker's Hospital Review,,,,,,,Announced MA exit for 2026
+171,Sanford Health (largest rural system),Humana,SD,2024,Q4,OON-Ongoing,KFYR-TV,,,,,,,Dropping Humana MA in Minnesota
+172,M Health Fairview,UnitedHealthcare (UnitedHealth Group),MN,2024,Q4,Resolved,Star Tribune,,,2025-12-16,,125000,,"Commercial dispute; 125,000 patients; deadline March 2025; RESOLVED Dec 2025 with multi-year deal 2026-2028"
+173,Centra Health,Humana,VA,2025,Q3,OON-Ongoing,Becker's Hospital Review,,,,,,,Dropping Humana MA 2026
+174,Mass General Brigham,UnitedHealthcare (UnitedHealth Group),MA,2024,Q4,OON-Ongoing,Becker's Hospital Review,,,,,,,Primary care MA OON Jan 2025
+175,Southwestern Health Resources/Texas Health/UT Southwestern,Blue Cross Blue Shield of Texas,TX,2025,Q1,OON-Ongoing,FOX4 Dallas,,,,,,,"OON April 1, 2025"
+176,Avera Health,Aetna (CVS Health),SD,2025,Q3,OON-Ongoing,Becker's Hospital Review,,,,,,,Announced dropping Aetna MA for 2026
+177,Montrose Regional Health,Humana,CO,2025,Q3,OON-Ongoing,Becker's Hospital Review,,,,,,,Ending Humana MA contract 2026
+178,Iowa Specialty Hospitals,Multiple MA Plans,IA,2025,Q3,OON-Ongoing,Becker's Hospital Review,,,,,,,"Keeping only Aetna, Medigold, UHC, Wellmark"
+179,UMass Memorial Health,Tufts Health Direct (Point32Health),MA,2025,Q1,OON-Ongoing,Boston Globe,,,,,17000,,"OON effective Jan 1, 2025; Point32Health wanted lower reimbursement rates; 17,000 patients affected"
+180,UMass Memorial Health,Blue Cross Blue Shield of Massachusetts,MA,2025,Q4,Resolved,Boston Globe,,,2025-11-13,,185000,,"Contract expired Dec 31, 2025; 185,000 patients affected; UMass sought 6.7% increase vs 3.58% offered; resolved Nov 2025 with 3-year deal"
+181,Hackensack Meridian Health,Horizon Blue Cross Blue Shield of New Jersey,NJ,2025,Q1,Resolved,ROI-NJ,,,2025-03-31,,3800000,,"18 hospitals; 3.8M Horizon members; HMH sought significant price increases; threatened OON June 1, 2025; resolved March 2025 with multi-year deal"
+182,Hackensack Meridian Health,Aetna (CVS Health),NJ,2024,Q3,Unknown,Gothamist,,,,,,"Threatened OON July 1, 2024; 18 hospitals; MA patients would lose coverage immediately",
+183,Ohio State Wexner Medical Center,Anthem Blue Cross Blue Shield (Elevance Health),OH,2024,Q4,Resolved,WOSU,,,2024-12-31,,135000,,"135,000 patients; OSU alleged Anthem underpaid claims; Anthem said OSU sought 3x inflation; commercial contract resolved Dec 31, 2024"
+184,Ohio State Wexner Medical Center,Anthem Blue Cross Blue Shield (Elevance Health),OH,2025,Q1,OON-Ongoing,WOSU,,,,,,MA contract NOT resolved; patients lost in-network access Jan 1, 2025
+185,Mount Carmel Health System,Aetna (CVS Health),OH,2024,Q4,Resolved,10TV,,,2024-12-31,,38000,,"38,000 patients; Mount Carmel said Aetna payments not keeping pace; resolved New Year's Eve 2024 with multi-year deal"
+186,Mount Carmel Health System,Humana,OH,2025,Q1,OON-Ongoing,10TV,,,,,,"Not in Humana network as of Jan 1, 2025; unable to reach agreement",
+187,TriHealth,UnitedHealthcare (UnitedHealth Group),OH,2025,Q4,Resolved,WVXU,,,2025-12-31,,80000,,"80,000 patients; TriHealth sought 35% hike; UHC said would make TriHealth highest cost in Cincinnati; resolved with multi-year deal"
+188,Trinity Health Michigan,Humana,MI,2025,Q1,OON-Ongoing,Becker's Hospital Review,,,,,,OON from Humana MA network as of Jan 1, 2025
+189,WVU Medicine Uniontown Hospital,Highmark PA (Highmark Health),PA,2025,Q1,OON-Ongoing,Observer-Reporter,,,,,,Fayette County PA; not participating with Highmark PA or Highmark Wholecare Medicare Advantage in 2025,
+190,NewYork-Presbyterian,Healthfirst,NY,2025,Q4,Resolved,Gothamist,,,2025-11,,2000000,,2M Healthfirst members; NYP terminated contract July 2025 effective Nov 3; resolved before deadline; multiyear deal
+191,Ascension Wisconsin,UnitedHealthcare (UnitedHealth Group),WI,2025,Q4,Resolved,WTMJ/Newsweek,,,2025-10-14,,,,Contract dispute over reimbursement; 13-day OON gap Oct 1-13 2025; RESOLVED Oct 14 2025 with multi-year deal; claims retroactively covered
+192,Boston Children's Hospital,Tufts Health Direct (Point32Health),MA,2025,Q1,OON-Ongoing,CBS Boston,,,,,5000,,"5,000 patients; OON effective Jan 1, 2025; BCH unable to accept rates offered for Tufts Health Direct; pediatric care affected"
+193,South Shore Health,Tufts Health Direct (Point32Health),MA,2025,Q4,Resolved,Boston Globe,,,2025-12-01,,2200,,"2,200 patients; threatened OON Jan 1, 2026; resolved Dec 2025 with new contract for all Point32Health products"
+194,South Shore Health,UnitedHealthcare (UnitedHealth Group),MA,2025,Q1,OON-Ongoing,Boston Globe,,,,,3900,,"3,900 Medicare Advantage patients; OON Jan 1, 2025; commercial extended to Feb 2025"
+195,UConn Health,ConnectiCare (Molina Healthcare),CT,2025,Q2,Resolved,Hartford Courant,,,2025-06,,9000,,"9,000 patients; contract expired April 15, 2025; UConn billboards pressured insurer; resolved after cooling-off period"
+196,UConn Health,Aetna (CVS Health),CT,2025,Q4,OON-Ongoing,Hartford Courant,,,,,15000,,"15,000 patients; Nov 30, 2025 deadline passed without deal; first CT dispute to extend past deadline; both sides accuse other"
+197,Stamford Health,Anthem Blue Cross Blue Shield (Elevance Health),CT,2024,Q4,Resolved,Hartford Business Journal,,,2025-02,,,"Contract expired Dec 30, 2024; 60-day cooling period to March 1; resolved Feb 2025 with multi-year deal; Stamford sought market rates",
+198,Albany Med Health System,CDPHP,NY,2024,Q4,Resolved,News10 ABC,,,2025-02-06,,,$40-50M withheld payments dispute; Albany Med CEO called withholding 'shameful'; resolved Feb 2025 after legal action filed,
+199,Mount Sinai Health System,Anthem Blue Cross Blue Shield (Elevance Health),NY,2025,Q4,OON-Ongoing,Anthem/Keep Mount Sinai,,,,,,"9,000 physicians OON Jan 1, 2026; hospitals OON March 1, 2026; MSK claims Anthem owes $450M; Anthem says MSK seeking 50% increase",
+200,Memorial Sloan Kettering,UnitedHealthcare (UnitedHealth Group),NY,2025,Q2,Resolved,CNN,,,2025-07-01,,19000,,"19,000 patients; MSK claims UHC kept rates at 1.6% annual increase; UHC claims MSK sought 30% hike; resolved July 1, 2025"
+201,Brown University Health,UnitedHealthcare (UnitedHealth Group),RI,2025,Q3,OON-Ongoing,RI Attorney General,,,,,,"RI Hospital, Hasbro Children's, Miriam, Newport OON for UHC MA July 1, 2025; CMS granted special election period",
+202,Aspirus Health (St. Luke's),Blue Cross Blue Shield of Minnesota,MN,2025,Q4,Resolved,Star Tribune,,,2025-12,,60000,,"60,000 patients in Duluth; Aspirus claimed underpaid vs market; BCBS MN claimed Aspirus above average cost; resolved Dec 2025"
+203,CommonSpirit Health (11 hospitals),Anthem Blue Cross Blue Shield (Elevance Health),CO,2024,Q2,Resolved,Colorado DOI,,,2024-05-17,,40000,,"40,000+ patients; OON May 1, 2024; Anthem said CommonSpirit ER rates 45% higher than peers; resolved May 17, 2024 with 5-year deal retroactive to May 1"
+204,Phoenix Children's Hospital,Blue Cross Blue Shield of Arizona,AZ,2024,Q4,Resolved,AZ Family,,,2025-02,,,"Contract expired Oct 30, 2024; PCH claimed BCBS denied 10% of claims ($21M/year); BCBS offered $80M raise but PCH called it 'fictional'; resolved Feb 2025",
+205,Abrazo Health (Tenet Healthcare),Cigna,AZ,2025,Q4,OON-Ongoing,ABC15,,,,,413000,,"413,000 Cigna enrollees; national Tenet-Cigna dispute; Cigna proposed rates below inflation; contract expires Dec 31, 2025"
+206,University of Utah Health,Aetna (CVS Health),UT,2024,Q1,Resolved,KSL,,,2024-01-29,,30000,,"30,000 patients; contract set to expire Jan 31, 2024; resolved 3 days before deadline with multi-year deal"
+207,Salem Health,Regence BlueCross BlueShield,OR,2025,Q1,OON-Ongoing,Salem Reporter,,,,,30000,,"30,000 Regence members; Salem Health sought 35% ER increase plus 15% in 2026; Regence said would raise premiums drastically; OON Jan 1, 2025"
+208,Providence Alaska,Premera Blue Cross Blue Shield of Alaska,AK,2024,Q1,Resolved,Anchorage Daily News,,,2023-12,,150000,,"150,000 Premera customers notified; Providence medical, behavioral, imaging groups terminated contracts Dec 31, 2023; resolved"
+209,HMSA Provider Network,HMSA (Hawaii Medical Services Association),HI,2024,Q1,OON-Ongoing,Hawaii News Now,,,,,,Judge ruled HMSA contracts 'unconscionable' Feb 2024; Hawaii Supreme Court ruled Sept 2025 patients can sue over denials; HMSA exploring merger with Hawaii Pacific Health Dec 2025,
+210,University of Utah Health,Regence BlueCross BlueShield,UT,2023,Q2,Resolved,Salt Lake Tribune,,,2023-06-26,,80000,,"70-80K non-employee patients + 50K employees; stalled over cost increases; resolved June 26, 2023 with multi-year deal days before expiration"
+211,UC Health (University of California),Anthem Blue Cross (Elevance Health),CA,2024,Q1,Resolved,Fierce Healthcare,,,2024-02-05,,8000000,,"8M Anthem members at risk; UC accused Anthem of bad faith; Anthem said UC demanded too much; resolved Feb 5, 2024 eleventh hour"
+212,Southwestern Health Resources,Blue Cross Blue Shield of Texas,TX,2022,Q3,Resolved,D Magazine,,,2022-10,,,"29 hospitals, 5,500 physicians; negotiating since July 2021; BCBSTX is largest TX insurer (6M members); resolved day of expiration",
+213,Springfield Clinic,Blue Cross Blue Shield of Illinois (HCSC),IL,2021,Q4,Resolved,Becker's Payer,,2021-11-17,2023-12-22,,100000,,"100,000 patients; BCBSIL removed clinic from PPO network Nov 2021; $1.1M total state fines for network adequacy violations; 2-year dispute resolved Dec 2023 with 5-year deal effective Jan 2024"
+214,Kootenai Health,Regence BlueShield of Idaho,ID,2025,Q4,OON-Ongoing,Idaho Capital Sun,,,,,,"Coeur d'Alene hospital; at impasse with Regence; could be OON Jan 1, 2026 if no deal",
+215,St. Joseph Hospital,Anthem Blue Cross Blue Shield (Elevance Health),NH,2025,Q1,OON-Ongoing,NH Insurance Dept,,,,,10000,,"8,000-10,000 patients; negotiations stalled 2 years over reimbursement rates; NH Insurance Dept intervened Jan 2025"
+216,Catholic Medical Center,Cigna,NH,2024,Q1,OON-Ongoing,Distilinfo Healthplan,,,,,,,Manchester hospital; HCA acquired Feb 2024 adding complexity to negotiations; potential network departure
+217,UVM Health Network,UnitedHealthcare (UnitedHealth Group),VT,2023,Q1,Resolved,VT Digger,,,2024-02,,,,"2,660 patients; threatened OON April 2023; extended through 2023; OON March 2024; RESOLVED Feb 2024 with new contract after 2-year dispute"
+218,University of Kansas Health System St. Francis Campus,Blue Cross Blue Shield of Kansas,KS,2025,Q4,OON-Ongoing,KSNT,,,,,,"Topeka hospital; deadline Dec 31, 2025; BCBSKS in 'good faith active discussions'",
+219,North Mississippi Health System,UnitedHealthcare (UnitedHealth Group),MS,2025,Q2,OON-Ongoing,Mississippi Today,,,,,,42% inpatient claims denied (up from 17% in Feb 2024); Level II trauma center; UHC proposed options to keep in MA network,
+220,Iowa Specialty Hospital,Multiple Medicare Advantage Plans,IA,2025,Q4,OON-Permanent,Belmond News,,,,,,"Will not accept non-emergent OON patients effective Jan 1, 2026; keeps Aetna, Medigold, UHC, Wellmark BCBS",

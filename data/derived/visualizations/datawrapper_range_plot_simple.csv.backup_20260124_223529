@@ -1,0 +1,61 @@
+Dispute,First Reported,Resolution Date,Duration (days),Outcome Status,Patients Affected
+CaroMont vs. United - 102,2020-11-19,2021-03-01,102,Resolved,6720.0
+Montefiore vs. United - 303,2021-02-01,2021-12-01,303,Resolved,33600.0
+Northside vs. Anthem - 426,2021-05-01,2022-07-01,426,Resolved,44800.0
+Northside Hospital Gwinnett vs. United - 92,2021-05-01,2021-08-01,92,Resolved,33600.0
+Northeast Georgia vs. Anthem - 92,2021-05-01,2021-08-01,92,Resolved,24000.0
+Wellstar vs. United - 271,2021-10-03,2022-07-01,271,Resolved,80000.0
+TeamHealth vs. United - 30,2021-11-01,2021-12-01,30,Resolved,60000.0
+Envision vs. United - 334,2022-02-01,2023-01-01,334,Resolved,72000.0
+Memorial Hermann vs. BCBS TX - 143,2022-03-11,2022-08-01,143,Resolved,112000.0
+Northeast Georgia vs. Anthem - 92,2022-05-01,2022-08-01,92,Resolved,40000.0
+WakeMed vs. United - 153,2022-06-01,2022-11-01,153,Resolved,17280.0
+Methodist Health vs. BCBS TN - 304,2022-08-01,2023-06-01,304,Resolved,24000.0
+VCU vs. Anthem - 365,2022-08-01,2023-08-01,365,Resolved,35200.0
+Southwestern Health Resources vs. BCBS TX - 61,2022-08-01,2022-10-01,61,Resolved,98000.0
+SUNY Upstate vs. United - 92,2022-11-01,2023-02-01,92,Resolved,7680.0
+Tryon vs. Humana - 1157,2022-11-01,2026-01-01,1157,Resolved,19500.0
+Evergreen vs. Premera - 59,2023-02-01,2023-04-01,59,Resolved,12000.0
+Conway Regional vs. United - 122,2023-04-15,2023-08-15,122,Resolved,3600.0
+Chesapeake Regional vs. Cigna - 580,2023-05-01,2024-12-01,580,Resolved,3600.0
+Bon Secours Mercy vs. Anthem - 123,2023-05-01,2023-09-01,123,OON-Ongoing,43200.0
+University of Utah vs. Regence - 56,2023-05-01,2023-06-26,56,Resolved,63000.0
+Piedmont vs. Humana - 44,2023-08-01,2023-09-14,44,Resolved,10000.0
+Providence vs. Blue Shield (California) - 276,2023-08-01,2024-05-03,276,Resolved,80000.0
+Baton Rouge General vs. Aetna - 458,2023-08-01,2024-11-01,458,Resolved,8960.0
+UNC vs. United - 167,2023-10-13,2024-03-28,167,Resolved,200000.0
+Jefferson vs. Cigna - 517,2023-11-01,2025-04-01,517,Resolved,33600.0
+Main Line vs. Cigna - 92,2023-11-01,2024-02-01,92,Resolved,14400.0
+Hackensack Meridian vs. Aetna - 61,2024-04-01,2024-06-01,61,Resolved,26880.0
+MU Health vs. Anthem - 61,2024-05-01,2024-07-01,61,Resolved,17280.0
+Trinity Health of New England vs. United - 92,2024-05-01,2024-08-01,92,Resolved,42000.0
+Johns Hopkins All Children's vs. United - 61,2024-05-01,2024-07-01,61,Resolved,260400.0
+Infirmary vs. United - 31,2024-05-01,2024-06-01,31,OON-Permanent,6000.0
+Baylor Scott & White vs. BCBS TX - 85,2024-05-08,2024-08-01,85,Resolved,140000.0
+Health vs. United - 96,2024-08-01,2024-11-05,96,Resolved,30000.0
+HCA Healthcare (38 hospitals) vs. United - 31,2024-08-01,2024-09-01,31,Resolved,28800.0
+Mercy vs. Anthem - 122,2024-08-01,2024-12-01,122,Resolved,43200.0
+St. Luke's vs. BCBS MN - 122,2024-08-01,2024-12-01,122,Resolved,14080.0
+Carson Tahoe vs. United - 365,2024-11-01,2025-11-01,365,OON-Ongoing,16200.0
+Providence vs. Aetna - 395,2024-11-01,2025-12-01,395,OON-Ongoing,9000.0
+Mercy (MO system) vs. BCBS - 30,2024-11-01,2024-12-01,30,Resolved,500000.0
+M Health Fairview vs. United - 410,2024-11-01,2025-12-16,410,Resolved,125000.0
+Ohio State Wexner vs. Anthem - 60,2024-11-01,2024-12-31,60,Resolved,135000.0
+Mount Carmel vs. Aetna - 60,2024-11-01,2024-12-31,60,Resolved,38000.0
+Stamford vs. Anthem - 92,2024-11-01,2025-02-01,92,Resolved,25620.0
+Albany Med vs. CDPHP - 97,2024-11-01,2025-02-06,97,Resolved,9600.0
+Phoenix Children's vs. BCBS AZ - 89,2024-11-04,2025-02-01,89,Resolved,16000.0
+Phoenix Children's vs. Aetna - 137,2024-12-15,2025-05-01,137,Resolved,5120.0
+Hackensack Meridian vs. BCBS (NJ) - 59,2025-01-01,2025-03-01,59,OON-Ongoing,78400.0
+Scripps vs. Anthem - 363,2025-01-03,2026-01-01,363,Resolved,18000.0
+Hartford Health vs. United - 60,2025-02-01,2025-04-02,60,Resolved,14000.0
+Hackensack Meridian vs. BCBS NJ - 58,2025-02-01,2025-03-31,58,Resolved,33000.0
+Mount Carmel vs. Humana - 242,2025-02-01,2025-10-01,242,OON-Ongoing,23760.0
+Trinity Health Michigan vs. Humana - 242,2025-02-01,2025-10-01,242,OON-Ongoing,14000.0
+UConn vs. ConnectiCare - 47,2025-04-15,2025-06-01,47,Resolved,9000.0
+Memorial Sloan Kettering vs. United - 61,2025-05-01,2025-07-01,61,Resolved,19000.0
+South Shore vs. Tufts - 122,2025-08-01,2025-12-01,122,Resolved,2200.0
+Ascension Texas vs. BCBS TX - 122,2025-08-01,2025-12-01,122,Resolved,70000.0
+Tri vs. United - 60,2025-11-01,2025-12-31,60,Resolved,80000.0
+South Shore vs. Tufts - 30,2025-11-01,2025-12-01,30,Resolved,2200.0
+St. Luke's vs. BCBS MN - 30,2025-11-01,2025-12-01,30,Resolved,60000.0

@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  /* HIOP editorial-calm, light. Palette validated (dataviz six checks) on surface #faf9f6 */
+  --color-paper: #faf9f6;
+  --color-card: #fffefb;
+  --color-ink: #1a1916;
+  --color-ink-2: #52514e;
+  --color-ink-3: #898781;
+  --color-hairline: #e6e2d8;
+  --color-baseline: #c9c5b8;
+  --color-resolved: #2a78d6;
+  --color-ongoing: #b87400;
+  --color-permanent: #c22f2f;
+  --font-serif: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  --font-sans: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* recessive scrollbars for the timeline / table wells */
+.well::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.well::-webkit-scrollbar-thumb {
+  background: var(--color-baseline);
+  border-radius: 4px;
+}
+.well::-webkit-scrollbar-track {
+  background: transparent;
+}

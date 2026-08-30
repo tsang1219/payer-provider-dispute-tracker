@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payer-Provider Disputes Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #fff;
+            padding: 20px;
+        }
+        .dashboard {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #4facfe, #00f2fe);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .header p {
+            color: #8892b0;
+            font-size: 1.1rem;
+        }
+        .kpi-row {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .kpi-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 25px;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+        }
+        .kpi-card .value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        .kpi-card .label {
+            color: #8892b0;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .kpi-card.patients .value { color: #4facfe; }
+        .kpi-card.disputes .value { color: #00f2fe; }
+        .kpi-card.resolved .value { color: #50fa7b; }
+        .kpi-card.ongoing .value { color: #ff5555; }
+
+        .charts-row {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .chart-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 25px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .chart-card h3 {
+            margin-bottom: 20px;
+            color: #ccd6f6;
+            font-size: 1.2rem;
+        }
+        .chart-container {
+            position: relative;
+            height: 300px;
+        }
+
+        .insight-section {
+            margin-bottom: 30px;
+        }
+        .insight-section h2 {
+            margin-bottom: 20px;
+            color: #ccd6f6;
+            font-size: 1.5rem;
+            border-bottom: 2px solid rgba(255,255,255,0.1);
+            padding-bottom: 10px;
+        }
+        .insights-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .insight-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 25px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .insight-card h4 {
+            color: #4facfe;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        .insight-card p {
+            color: #8892b0;
+            line-height: 1.6;
+        }
+        .insight-card .stat {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #ff5555;
+            margin: 10px 0;
+        }
+        .insight-card .stat.good { color: #50fa7b; }
+
+        .insurer-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        .insurer-table th, .insurer-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .insurer-table th {
+            color: #4facfe;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+        }
+        .insurer-table td {
+            color: #ccd6f6;
+        }
+        .insurer-table tr:hover {
+            background: rgba(255,255,255,0.05);
+        }
+        .rate-bar {
+            background: rgba(255,255,255,0.1);
+            border-radius: 4px;
+            height: 8px;
+            overflow: hidden;
+        }
+        .rate-bar .fill {
+            height: 100%;
+            border-radius: 4px;
+        }
+        .rate-bar .fill.high { background: #50fa7b; }
+        .rate-bar .fill.medium { background: #f1fa8c; }
+        .rate-bar .fill.low { background: #ff5555; }
+
+        .callout {
+            background: linear-gradient(135deg, rgba(255,85,85,0.2), rgba(255,85,85,0.1));
+            border-left: 4px solid #ff5555;
+            padding: 20px;
+            border-radius: 0 16px 16px 0;
+            margin: 20px 0;
+        }
+        .callout h4 {
+            color: #ff5555;
+            margin-bottom: 10px;
+        }
+        .callout p {
+            color: #ccd6f6;
+        }
+
+        @media (max-width: 1200px) {
+            .kpi-row { grid-template-columns: repeat(2, 1fr); }
+            .charts-row { grid-template-columns: 1fr; }
+            .insights-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="header">
+            <h1>Payer-Provider Contract Disputes</h1>
+            <p>Analysis of hospital-insurer contract disputes across the United States (2021-2025)</p>
+        </div>
+
+        <div class="kpi-row">
+            <div class="kpi-card patients">
+                <div class="value">6.5M</div>
+                <div class="label">Patients Affected</div>
+            </div>
+            <div class="kpi-card disputes">
+                <div class="value">203</div>
+                <div class="label">Total Disputes</div>
+            </div>
+            <div class="kpi-card resolved">
+                <div class="value">29%</div>
+                <div class="label">Resolution Rate</div>
+            </div>
+            <div class="kpi-card ongoing">
+                <div class="value">126</div>
+                <div class="label">Currently OON</div>
+            </div>
+        </div>
+
+        <div class="charts-row">
+            <div class="chart-card">
+                <h3>Disputes Over Time (by Quarter)</h3>
+                <div class="chart-container">
+                    <canvas id="timelineChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3>Outcome Status</h3>
+                <div class="chart-container">
+                    <canvas id="outcomeChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="charts-row">
+            <div class="chart-card">
+                <h3>Patients Affected by Insurer</h3>
+                <div class="chart-container">
+                    <canvas id="insurerPatientsChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3>Dispute Type</h3>
+                <div class="chart-container">
+                    <canvas id="disputeTypeChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="callout">
+            <h4>Key Finding: Humana's Zero Resolution Rate</h4>
+            <p>Of the 49 disputes involving Humana, <strong>zero have been resolved</strong>. When hospitals threaten to leave Humana's network, the insurer consistently allows them to go out-of-network rather than negotiate. This affects an estimated 1.2 million Medicare Advantage patients across 36 health systems.</p>
+        </div>
+
+        <div class="insight-section">
+            <h2>Resolution Rate by Insurer</h2>
+            <div class="chart-card">
+                <table class="insurer-table">
+                    <thead>
+                        <tr>
+                            <th>Insurer</th>
+                            <th>Disputes</th>
+                            <th>Resolved</th>
+                            <th>Resolution Rate</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Elevance Health (Anthem)</td>
+                            <td>19</td>
+                            <td>11</td>
+                            <td>58%</td>
+                            <td><div class="rate-bar"><div class="fill high" style="width: 58%"></div></div></td>
+                        </tr>
+                        <tr>
+                            <td>BCBS of Texas</td>
+                            <td>7</td>
+                            <td>4</td>
+                            <td>57%</td>
+                            <td><div class="rate-bar"><div class="fill high" style="width: 57%"></div></div></td>
+                        </tr>
+                        <tr>
+                            <td>Point32Health</td>
+                            <td>4</td>
+                            <td>2</td>
+                            <td>50%</td>
+                            <td><div class="rate-bar"><div class="fill medium" style="width: 50%"></div></div></td>
+                        </tr>
+                        <tr>
+                            <td>UnitedHealth Group</td>
+                            <td>52</td>
+                            <td>20</td>
+                            <td>38%</td>
+                            <td><div class="rate-bar"><div class="fill medium" style="width: 38%"></div></div></td>
+                        </tr>
+                        <tr>
+                            <td>CVS Health (Aetna)</td>
+                            <td>19</td>
+                            <td>4</td>
+                            <td>21%</td>
+                            <td><div class="rate-bar"><div class="fill low" style="width: 21%"></div></div></td>
+                        </tr>
+                        <tr>
+                            <td>Cigna</td>
+                            <td>10</td>
+                            <td>2</td>
+                            <td>20%</td>
+                            <td><div class="rate-bar"><div class="fill low" style="width: 20%"></div></div></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Humana</strong></td>
+                            <td>36</td>
+                            <td>0</td>
+                            <td><strong>0%</strong></td>
+                            <td><div class="rate-bar"><div class="fill low" style="width: 0%"></div></div></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="insight-section">
+            <h2>Key Insights</h2>
+            <div class="insights-grid">
+                <div class="insight-card">
+                    <h4>Explosive Growth</h4>
+                    <div class="stat">10x</div>
+                    <p>Disputes increased from 8 in 2021 to 84 in 2024, with 71 already in 2025. The trend shows accelerating conflict between hospitals and insurers.</p>
+                </div>
+                <div class="insight-card">
+                    <h4>Medicare Advantage Focus</h4>
+                    <div class="stat">50+</div>
+                    <p>At least 50 disputes specifically involve Medicare Advantage plans, with hospitals increasingly opting out of MA networks while remaining in-network for commercial plans.</p>
+                </div>
+                <div class="insight-card">
+                    <h4>UnitedHealthcare Dominance</h4>
+                    <div class="stat">52</div>
+                    <p>UnitedHealthcare is involved in 52 disputes (26% of all), affecting an estimated 734,000 patients. They have the highest dispute volume by far.</p>
+                </div>
+                <div class="insight-card">
+                    <h4>Q4 Concentration</h4>
+                    <div class="stat">47</div>
+                    <p>Q4 sees the most disputes (47 in 2024-2025 alone) as contracts typically expire at year-end, creating a seasonal surge in network disruptions.</p>
+                </div>
+                <div class="insight-card">
+                    <h4>Resolution Gap</h4>
+                    <div class="stat">71%</div>
+                    <p>71% of disputes remain unresolved (OON-Ongoing or Unknown status). Once a dispute begins, most do not reach resolution.</p>
+                </div>
+                <div class="insight-card">
+                    <h4>Patient Impact</h4>
+                    <div class="stat good">6.5M</div>
+                    <p>Over 6.5 million patients are potentially affected by these disputes, facing higher out-of-pocket costs or needing to find new providers.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Timeline Chart
+        const timelineCtx = document.getElementById('timelineChart').getContext('2d');
+        new Chart(timelineCtx, {
+            type: 'bar',
+            data: {
+                labels: ['2021 Q1', 'Q2', 'Q3', 'Q4', '2022 Q1', 'Q2', 'Q3', 'Q4', '2023 Q1', 'Q2', 'Q3', 'Q4', '2024 Q1', 'Q2', 'Q3', 'Q4', '2025 Q1', 'Q2', 'Q3', 'Q4'],
+                datasets: [{
+                    label: 'New Disputes',
+                    data: [1, 3, 1, 3, 2, 1, 4, 6, 3, 4, 11, 9, 16, 11, 19, 38, 27, 11, 24, 9],
+                    backgroundColor: 'rgba(79, 172, 254, 0.8)',
+                    borderColor: '#4facfe',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: { color: 'rgba(255,255,255,0.1)' },
+                        ticks: { color: '#8892b0' }
+                    },
+                    x: {
+                        grid: { display: false },
+                        ticks: { color: '#8892b0', maxRotation: 45 }
+                    }
+                }
+            }
+        });
+
+        // Outcome Chart
+        const outcomeCtx = document.getElementById('outcomeChart').getContext('2d');
+        new Chart(outcomeCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['OON-Ongoing', 'Resolved', 'Unknown', 'OON-Temporary'],
+                datasets: [{
+                    data: [126, 58, 13, 6],
+                    backgroundColor: ['#ff5555', '#50fa7b', '#8892b0', '#f1fa8c'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: { color: '#ccd6f6', padding: 15 }
+                    }
+                }
+            }
+        });
+
+        // Insurer Patients Chart
+        const insurerCtx = document.getElementById('insurerPatientsChart').getContext('2d');
+        new Chart(insurerCtx, {
+            type: 'bar',
+            data: {
+                labels: ['UnitedHealth', 'Humana', 'Elevance', 'CVS/Aetna', 'Cigna', 'BCBS TX', 'Other'],
+                datasets: [{
+                    label: 'Patients Affected (thousands)',
+                    data: [734, 1200, 276, 107, 85, 140, 450],
+                    backgroundColor: [
+                        'rgba(79, 172, 254, 0.8)',
+                        'rgba(255, 85, 85, 0.8)',
+                        'rgba(80, 250, 123, 0.8)',
+                        'rgba(241, 250, 140, 0.8)',
+                        'rgba(189, 147, 249, 0.8)',
+                        'rgba(139, 233, 253, 0.8)',
+                        'rgba(136, 146, 176, 0.8)'
+                    ]
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false }
+                },
+                scales: {
+                    x: {
+                        grid: { color: 'rgba(255,255,255,0.1)' },
+                        ticks: { color: '#8892b0' }
+                    },
+                    y: {
+                        grid: { display: false },
+                        ticks: { color: '#ccd6f6' }
+                    }
+                }
+            }
+        });
+
+        // Dispute Type Chart
+        const typeCtx = document.getElementById('disputeTypeChart').getContext('2d');
+        new Chart(typeCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Medicare Advantage', 'All MA Plans', 'Commercial', 'Multi-type', 'Unknown'],
+                datasets: [{
+                    data: [43, 7, 4, 2, 147],
+                    backgroundColor: ['#4facfe', '#00f2fe', '#50fa7b', '#f1fa8c', '#8892b0'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: { color: '#ccd6f6', padding: 10, font: { size: 11 } }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

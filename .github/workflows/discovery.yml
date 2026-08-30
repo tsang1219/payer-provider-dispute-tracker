@@ -1,0 +1,32 @@
+name: Weekly dispute discovery
+
+on:
+  schedule:
+    - cron: "30 12 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Stage newly reported disputes
+        run: python3 scripts/monthly_update/monthly_update.py discover --days 14
+      - name: Open or update review pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/weekly-dispute-discovery
+          delete-branch: true
+          commit-message: "data: stage weekly dispute candidates"
+          title: "Weekly dispute candidates"
+          body: |
+            Automated discovery only. Review the linked evidence; this pull request does not modify canonical data.
+          labels: data-review
+

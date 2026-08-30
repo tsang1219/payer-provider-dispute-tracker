@@ -1,0 +1,197 @@
+{
+  "timestamp": "2026-01-22T11:30:01.911841",
+  "csv_path": "data/primary/disputes_enriched.csv",
+  "total_disputes": 203,
+  "total_discrepancies": 17,
+  "by_category": {
+    "permanent_with_resolution": 1,
+    "ongoing_with_termination": 7,
+    "oon_with_resolution_date": 1,
+    "resolved_without_date": 8
+  },
+  "by_confidence": {
+    "high": 2,
+    "medium": 0,
+    "low": 15
+  },
+  "discrepancies": {
+    "permanent_with_resolution": [
+      {
+        "dispute_id": "94",
+        "dispute_name": "Carson Tahoe Health vs UnitedHealthcare 2024",
+        "current_status": "OON-Permanent",
+        "issue": "OON-Permanent with resolution_date populated",
+        "evidence": "resolution_date=2025-11-01",
+        "suggested_status": "Resolved",
+        "confidence": "high",
+        "reason": "Resolution date exists, should be Resolved"
+      }
+    ],
+    "ongoing_with_termination": [
+      {
+        "dispute_id": "112",
+        "dispute_name": "M Health Fairview vs Aetna 2025",
+        "current_status": "OON-Ongoing",
+        "issue": "OON-Ongoing with termination language (recent)",
+        "evidence": "MA contract dropped",
+        "suggested_status": "OON-Ongoing",
+        "confidence": "low",
+        "reason": "Has termination language but < 12 months old"
+      },
+      {
+        "dispute_id": "113",
+        "dispute_name": "Allina Health vs Humana 2025",
+        "current_status": "OON-Ongoing",
+        "issue": "OON-Ongoing with termination language (recent)",
+        "evidence": "MA contract dropped",
+        "suggested_status": "OON-Ongoing",
+        "confidence": "low",
+        "reason": "Has termination language but < 12 months old"
+      },
+      {
+        "dispute_id": "114",
+        "dispute_name": "Mayo Clinic vs HealthPartners 2025",
+        "current_status": "OON-Ongoing",
+        "issue": "OON-Ongoing with termination language (recent)",
+        "evidence": "MA contract dropped",
+        "suggested_status": "OON-Ongoing",
+        "confidence": "low",
+        "reason": "Has termination language but < 12 months old"
+      },
+      {
+        "dispute_id": "123",
+        "dispute_name": "Johns Hopkins Medicine vs UnitedHealthcare 2025",
+        "current_status": "OON-Ongoing",
+        "issue": "OON-Ongoing with termination language (recent)",
+        "evidence": "Negotiations ended Aug 25, 2025; 60K patients affected; dispute over contract terms not rates",
+        "suggested_status": "OON-Ongoing",
+        "confidence": "low",
+        "reason": "Has termination language but < 12 months old"
+      },
+      {
+        "dispute_id": "133",
+        "dispute_name": "Bronson Healthcare vs UnitedHealthcare 2025",
+        "current_status": "OON-Ongoing",
+        "issue": "OON-Ongoing with termination language (recent)",
+        "evidence": "Extended through Jan 31, 2026",
+        "suggested_status": "OON-Ongoing",
+        "confidence": "low",
+        "reason": "Has termination language but < 12 months old"
+      },
+      {
+        "dispute_id": "136",
+        "dispute_name": "NewYork-Presbyterian vs UnitedHealthcare 2025",
+        "current_status": "OON-Ongoing",
+        "issue": "OON-Ongoing with termination language (recent)",
+        "evidence": "MA out of network Jan 1 2026; Commercial extended to Jan 31 2026; ongoing negotiations",
+        "suggested_status": "OON-Ongoing",
+        "confidence": "low",
+        "reason": "Has termination language but < 12 months old"
+      },
+      {
+        "dispute_id": "144",
+        "dispute_name": "Salem Health vs Regence BlueCross BlueShield 2025",
+        "current_status": "OON-Ongoing",
+        "issue": "OON-Ongoing with termination language (recent)",
+        "evidence": "Contract terminated Jan 1, 2025; 30K affected; Salem requested 35% increase; only hospital in Salem",
+        "suggested_status": "OON-Ongoing",
+        "confidence": "low",
+        "reason": "Has termination language but < 12 months old"
+      }
+    ],
+    "oon_with_resolution_date": [
+      {
+        "dispute_id": "94",
+        "dispute_name": "Carson Tahoe Health vs UnitedHealthcare 2024",
+        "current_status": "OON-Permanent",
+        "issue": "OON-Permanent with resolution_date populated",
+        "evidence": "resolution_date=2025-11-01; notes=Agreement with UMR for state employees extended through June 30, 2027",
+        "suggested_status": "Resolved",
+        "confidence": "high",
+        "reason": "Resolution date exists and no hybrid language found"
+      }
+    ],
+    "resolved_without_date": [
+      {
+        "dispute_id": "29",
+        "dispute_name": "Ascension Texas vs Blue Cross Blue Shield of Texas 2023",
+        "current_status": "Resolved",
+        "issue": "Resolved without resolution_date (extraction failed)",
+        "evidence": "New dispute emerging for 2026",
+        "suggested_date": null,
+        "confidence": "low",
+        "reason": "Could not extract date from notes - manual review needed"
+      },
+      {
+        "dispute_id": "62",
+        "dispute_name": "St. Peter's Health Partners vs UnitedHealthcare 2024",
+        "current_status": "Resolved",
+        "issue": "Resolved without resolution_date (extraction failed)",
+        "evidence": "Part of Trinity dispute",
+        "suggested_date": null,
+        "confidence": "low",
+        "reason": "Could not extract date from notes - manual review needed"
+      },
+      {
+        "dispute_id": "116",
+        "dispute_name": "MU Health Care vs Anthem 2025",
+        "current_status": "Resolved",
+        "issue": "Resolved without resolution_date (extraction failed)",
+        "evidence": "Contract expired April; 90,000 patients",
+        "suggested_date": null,
+        "confidence": "low",
+        "reason": "Could not extract date from notes - manual review needed"
+      },
+      {
+        "dispute_id": "122",
+        "dispute_name": "Phoenix Children's Hospital vs UnitedHealthcare 2025",
+        "current_status": "Resolved",
+        "issue": "Resolved without resolution_date (extraction failed)",
+        "evidence": "11th hour deal; 17,000 children",
+        "suggested_date": null,
+        "confidence": "low",
+        "reason": "Could not extract date from notes - manual review needed"
+      },
+      {
+        "dispute_id": "150",
+        "dispute_name": "Mercy Health (Springfield/Urbana) vs Cigna 2025",
+        "current_status": "Resolved",
+        "issue": "Resolved without resolution_date (extraction failed)",
+        "evidence": "Mercy Health and Cigna reach agreement to secure in-network access for patients",
+        "suggested_date": null,
+        "confidence": "low",
+        "reason": "Could not extract date from notes - manual review needed"
+      },
+      {
+        "dispute_id": "151",
+        "dispute_name": "Lifespan (4 hospitals) vs Cigna 2024",
+        "current_status": "Resolved",
+        "issue": "Resolved without resolution_date (extraction failed)",
+        "evidence": "Lifespan may no longer accept Cigna insurance - permanent OON",
+        "suggested_date": null,
+        "confidence": "low",
+        "reason": "Could not extract date from notes - manual review needed"
+      },
+      {
+        "dispute_id": "156",
+        "dispute_name": "M Health Fairview vs UnitedHealthcare 2025",
+        "current_status": "Resolved",
+        "issue": "Resolved without resolution_date (extraction failed)",
+        "evidence": "MA resolved; commercial ongoing (100,000 patients)",
+        "suggested_date": null,
+        "confidence": "low",
+        "reason": "Could not extract date from notes - manual review needed"
+      },
+      {
+        "dispute_id": "182",
+        "dispute_name": "Hackensack Meridian Health vs Aetna 2024",
+        "current_status": "Resolved",
+        "issue": "Resolved without resolution_date (extraction failed)",
+        "evidence": "No notes available",
+        "suggested_date": null,
+        "confidence": "low",
+        "reason": "Could not extract date from notes - manual review needed"
+      }
+    ]
+  }
+}

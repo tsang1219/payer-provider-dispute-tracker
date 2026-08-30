@@ -1,0 +1,11 @@
+[
+  {
+    "dispute_id": "208",
+    "dispute_name": "Providence Alaska vs Premera Blue Cross Blue Shield of Alaska 2024",
+    "estimated_patients": 80000,
+    "range": "60,000 - 100,000",
+    "confidence": "medium",
+    "method": "commercial_estimation",
+    "notes": "Calculated: 400,000 annual patients \u00d7 25% payer share \u00d7 0.8 adjustment"
+  }
+]

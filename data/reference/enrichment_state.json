@@ -1,0 +1,16 @@
+{
+  "last_processed_id": 169,
+  "total_disputes": 169,
+  "enriched_count": 169,
+  "map_ready_count": 107,
+  "high_completeness_count": 32,
+  "medium_completeness_count": 74,
+  "low_completeness_count": 63,
+  "total_patients_captured": 1363100,
+  "disputes_with_patient_counts": 20,
+  "disputes_with_oon_dates": 45,
+  "average_completeness_score": 0.358,
+  "last_run": "2026-01-04T17:56:56.636347",
+  "errors": [],
+  "notes": "Batch enrichment complete. 107 disputes map-ready (63.3%). 32 disputes with high completeness (18.9%). Average completeness: 0.358. Remaining: 129 need patient counts, 124 need OON dates, 62 need coordinates. These require web research for specific dispute details."
+}

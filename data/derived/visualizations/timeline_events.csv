@@ -1,0 +1,264 @@
+event_id,dispute_id,event_date,event_type,event_description,source
+1_public,1,2021-08-01,dispute_public,Dispute between Dignity Health and Anthem Blue Cross became public,Fierce Healthcare
+1_resolved,1,Aug 2021,resolution,Dispute resolved between Dignity Health and Anthem Blue Cross,
+2_public,2,2021-02-01,dispute_public,Dispute between Montefiore Health System and UnitedHealthcare became public,City Limits
+3_public,3,2021-05-01,dispute_public,Dispute between Northside Hospital and Anthem Blue Cross Blue Shield became public,Becker's Hospital Review
+3_resolved,3,July 2022,resolution,Dispute resolved between Northside Hospital and Anthem Blue Cross Blue Shield,
+4_public,4,2021-11-01,dispute_public,Dispute between Wellstar Health System and UnitedHealthcare became public,Georgia Health News
+5_public,5,2021-11-01,dispute_public,Dispute between Catawba Valley Medical Center and UnitedHealthcare became public,Becker's Hospital Review
+6_public,6,2021-05-01,dispute_public,Dispute between Northside Hospital Gwinnett and UnitedHealthcare became public,Modern Healthcare
+6_resolved,6,Aug 2021,resolution,Dispute resolved between Northside Hospital Gwinnett and UnitedHealthcare,
+7_public,7,2021-05-01,dispute_public,Dispute between Northeast Georgia Health System and Anthem became public,Modern Healthcare
+8_public,8,2021-11-01,dispute_public,Dispute between TeamHealth (physician staffing) and UnitedHealthcare became public,Modern Healthcare
+9_public,9,2022-02-01,dispute_public,Dispute between Northside Hospital and Anthem Blue Cross Blue Shield became public,Becker's Hospital Review
+10_public,10,2022-11-01,dispute_public,Dispute between Lehigh Valley Health Network and Aetna became public,The Morning Call
+11_public,11,2022-11-01,dispute_public,Dispute between SUNY Upstate University Hospital and UnitedHealthcare became public,Becker's Hospital Review
+12_public,12,2022-08-01,dispute_public,Dispute between Memorial Hermann Health System and Blue Cross Blue Shield of Texas became public,Houston Public Media
+13_public,13,2022-11-01,dispute_public,Dispute between WakeMed Health and UnitedHealthcare became public,WUNC
+14_public,14,2022-11-01,dispute_public,Dispute between Wellstar Health System and UnitedHealthcare became public,KFF Health News
+15_public,15,2022-08-01,dispute_public,Dispute between Methodist Health Care and Blue Cross Blue Shield of Tennessee became public,Commercial-Appeal
+15_resolved,15,June 2023,resolution,Dispute resolved between Methodist Health Care and Blue Cross Blue Shield of Tennessee,
+16_public,16,2022-11-01,dispute_public,Dispute between Community Healthcare System and Aetna became public,NWI Times
+17_public,17,2022-11-01,dispute_public,Dispute between Tryon Medical Partners and Humana became public,NC State Health Plan
+18_public,18,2022-05-01,dispute_public,Dispute between Northeast Georgia Health System and Anthem became public,Georgia Health News
+19_public,19,2022-08-01,dispute_public,Dispute between VCU Health and Anthem became public,KFF Health News
+20_public,20,2022-02-01,dispute_public,Dispute between Envision Healthcare and UnitedHealthcare became public,Healthcare Dive
+21_public,21,2023-05-01,dispute_public,Dispute between Chesapeake Regional Medical Center and Cigna became public,Virginia Mercury
+22_public,22,2023-11-01,dispute_public,Dispute between WakeMed and Humana became public,WakeMed Official
+23_public,23,2023-08-01,dispute_public,Dispute between Piedmont Healthcare and Humana became public,Piedmont Healthcare
+24_public,24,2023-11-01,dispute_public,Dispute between Scripps Clinic Medical Group and All Medicare Advantage Plans became public,ClearHealthCosts
+25_public,25,2023-02-01,dispute_public,Dispute between EvergreenHealth and Premera Blue Cross became public,Premera Blue Cross
+25_oon,25,"April 1, 2023",oon_effective,EvergreenHealth went out-of-network with Premera Blue Cross,
+26_public,26,2023-05-01,dispute_public,Dispute between Bon Secours Mercy Health and Anthem Blue Cross Blue Shield became public,Healthcare Dive
+27_public,27,2023-08-01,dispute_public,Dispute between Genesis Healthcare System and Elevance Health/Humana became public,Healthcare Dive
+28_public,28,2023-08-01,dispute_public,Dispute between WellSpan Health and Humana became public,Healthcare Dive
+29_public,29,2023-11-01,dispute_public,Dispute between Ascension Texas and Blue Cross Blue Shield of Texas became public,KVUE
+30_public,30,2023-11-01,dispute_public,Dispute between Arkansas Methodist Medical Center and Humana became public,AMMC Official
+31_public,31,2023-05-01,dispute_public,Dispute between Hillcrest HealthCare System and UnitedHealthcare became public,Becker's/KTUL
+32_public,32,2023-02-01,dispute_public,Dispute between CaroMont and UnitedHealthcare became public,WSOC TV
+33_public,33,2023-11-01,dispute_public,Dispute between UNC Health and UnitedHealthcare became public,WUNC
+34_public,34,2023-08-01,dispute_public,Dispute between Providence and Blue Shield of California became public,Healthcare Dive
+35_public,35,2023-08-01,dispute_public,Dispute between Baton Rouge General and Aetna became public,ClearHealthCosts
+36_public,36,2023-11-01,dispute_public,Dispute between Baptist Health and UnitedHealthcare (UnitedHealth Group)/WellCare became public,ClearHealthCosts
+37_public,37,2023-08-01,dispute_public,Dispute between Albany Medical Center and Humana became public,ClearHealthCosts
+38_public,38,2023-08-01,dispute_public,Dispute between Allina Health and Humana became public,Minnesota AG Office
+39_public,39,2023-11-01,dispute_public,Dispute between Avera and Humana became public,Minnesota AG Office
+40_public,40,2023-08-01,dispute_public,Dispute between M Health Fairview and Humana became public,Minnesota AG Office
+41_public,41,2023-08-01,dispute_public,Dispute between North Memorial Medical Center and Humana became public,Minnesota AG Office
+42_public,42,2023-11-01,dispute_public,Dispute between Jefferson Health and Cigna became public,Healthcare Dive
+43_public,43,2023-11-01,dispute_public,Dispute between Main Line Health and Cigna became public,Healthcare Dive
+43_resolved,43,Feb 2024,resolution,Dispute resolved between Main Line Health and Cigna,
+44_public,44,2023-02-01,dispute_public,Dispute between Mount Sinai Health System and UnitedHealthcare became public,Healthcare Dive
+45_public,45,2023-08-01,dispute_public,Dispute between Stillwater Medical Center and All Medicare Advantage Plans became public,Becker's Hospital Review
+46_public,46,2023-08-01,dispute_public,Dispute between Conway Regional Health System and UnitedHealthcare became public,Arkansas Democrat-Gazette
+46_oon,46,"July 1, 2023",oon_effective,Conway Regional Health System went out-of-network with UnitedHealthcare,
+47_public,47,2024-02-01,dispute_public,Dispute between Prisma Health and UnitedHealthcare became public,Greenville Business Magazine
+48_public,48,2024-02-01,dispute_public,Dispute between Samaritan Health Services and UnitedHealthcare became public,Becker's Hospital Review
+48_oon,48,"Jan 9, 2024",oon_effective,Samaritan Health Services went out-of-network with UnitedHealthcare,
+49_public,49,2024-02-01,dispute_public,Dispute between St. Charles Health System and Humana/Centene became public,Becker's Hospital Review
+50_public,50,2024-02-01,dispute_public,Dispute between Baptist Health and UnitedHealthcare (UnitedHealth Group)/WellCare became public,Becker's Hospital Review
+50_oon,50,"Jan 1, 2024",oon_effective,Baptist Health went out-of-network with UnitedHealthcare (UnitedHealth Group)/WellCare,
+51_public,51,2024-02-01,dispute_public,Dispute between Scripps Health and All Medicare Advantage Plans became public,Becker's Hospital Review
+52_public,52,2024-02-01,dispute_public,Dispute between Brookings Health System and All Medicare Advantage Plans became public,Becker's/KFF
+53_public,53,2024-02-01,dispute_public,Dispute between Cameron Regional Medical Center and Aetna (CVS Health)/Humana became public,Becker's Hospital Review
+54_public,54,2024-02-01,dispute_public,Dispute between Genesis Healthcare System and Anthem Blue Cross Blue Shield (Elevance Health)/Humana became public,Becker's Hospital Review
+55_public,55,2024-02-01,dispute_public,Dispute between Southeast Georgia Health System and WellCare became public,Becker's Hospital Review
+56_public,56,2024-02-01,dispute_public,Dispute between Memorial Hermann Health System and Humana became public,JustCare
+57_public,57,2024-02-01,dispute_public,Dispute between WellSpan Health and Humana/UnitedHealthcare became public,Becker's Hospital Review
+58_public,58,2024-05-01,dispute_public,Dispute between Comanche County Memorial Hospital and UnitedHealthcare became public,JustCare
+59_public,59,2024-05-01,dispute_public,Dispute between MU Health Care and Anthem became public,NPR/KFF Health News
+60_public,60,2024-05-01,dispute_public,Dispute between Vanderbilt Health and Humana became public,Becker's Hospital Review
+61_public,61,2024-05-01,dispute_public,Dispute between Trinity Health of New England and UnitedHealthcare became public,Hartford Business Journal
+62_public,62,2024-05-01,dispute_public,Dispute between St. Peter's Health Partners and UnitedHealthcare became public,Becker's/STAT News
+63_public,63,2024-05-01,dispute_public,Dispute between Memorial Sloan Kettering Cancer Center and UnitedHealthcare became public,NPR/STAT News
+64_public,64,2024-05-01,dispute_public,Dispute between Johns Hopkins All Children's Hospital and UnitedHealthcare became public,Becker's Hospital Review
+65_public,65,2024-05-01,dispute_public,Dispute between Infirmary Health and UnitedHealthcare became public,Infirmary Health Press
+65_oon,65,"June 4, 2024",oon_effective,Infirmary Health went out-of-network with UnitedHealthcare,
+66_public,66,2024-05-01,dispute_public,Dispute between Broward Health and Florida Blue became public,Sun Sentinel
+66_oon,66,"July 1, 2024",oon_effective,Broward Health went out-of-network with Florida Blue,
+67_public,67,2024-05-01,dispute_public,Dispute between Powers Health (Community Healthcare) and Humana/Aetna became public,Becker's Hospital Review
+67_oon,67,"June 1, 2024",oon_effective,Powers Health (Community Healthcare) went out-of-network with Humana/Aetna,
+68_public,68,2024-08-01,dispute_public,Dispute between Trinity Health (CA/IN/GA) and UnitedHealthcare became public,STAT News
+69_public,69,2024-08-01,dispute_public,Dispute between Aultman Health System and Humana became public,Becker's/Newsweek
+70_public,70,2024-08-01,dispute_public,Dispute between Albany Med Health System and Humana became public,CBS6 Albany
+71_public,71,2024-08-01,dispute_public,Dispute between Cape Fear Valley Health and UnitedHealthcare became public,Modern Healthcare
+72_public,72,2024-08-01,dispute_public,Dispute between HealthPartners and UnitedHealthcare became public,Newsweek
+73_public,73,2024-08-01,dispute_public,Dispute between HCA Healthcare (38 hospitals) and UnitedHealthcare became public,STAT News
+74_public,74,2024-08-01,dispute_public,Dispute between University of Florida Health and UnitedHealthcare became public,Healthcare Brew
+75_public,75,2024-08-01,dispute_public,Dispute between Mercy Health System and Anthem Blue Cross Blue Shield became public,Mercy Press Release
+75_resolved,75,Dec 2024,resolution,Dispute resolved between Mercy Health System and Anthem Blue Cross Blue Shield,
+76_public,76,2024-08-01,dispute_public,Dispute between NCH Healthcare System and Florida Blue became public,South Florida Hospital News
+77_public,77,2024-08-01,dispute_public,Dispute between Northern Light Health (10 hospitals) and Humana became public,WABI News
+78_public,78,2024-08-01,dispute_public,Dispute between HealthPartners and Humana became public,Star Tribune
+79_public,79,2024-11-01,dispute_public,Dispute between Hartford HealthCare and Cigna became public,Hartford Business Journal
+79_oon,79,"Nov 1, 2024",oon_effective,Hartford HealthCare went out-of-network with Cigna,
+79_resolved,79,2024-10-31,resolution,Dispute resolved between Hartford HealthCare and Cigna,
+80_public,80,2025-02-01,dispute_public,Dispute between Hartford HealthCare and UnitedHealthcare became public,CT News Junkie
+80_resolved,80,2025-04-02,resolution,Dispute resolved between Hartford HealthCare and UnitedHealthcare,
+81_public,81,2024-11-01,dispute_public,Dispute between Huntsville Hospital Health System and UnitedHealthcare became public,WHNT News
+82_public,82,2024-11-01,dispute_public,Dispute between Duke Health and Aetna became public,NPR/KFF Health News
+83_public,83,2024-11-01,dispute_public,Dispute between NewYork-Presbyterian and Healthfirst became public,Gothamist
+84_public,84,2024-11-01,dispute_public,Dispute between North Memorial Health and Humana became public,Becker's Hospital Review
+84_oon,84,"Dec 31, 2024",oon_effective,North Memorial Health went out-of-network with Humana,
+85_public,85,2024-11-01,dispute_public,Dispute between Essentia Health and Humana became public,Becker's Hospital Review
+86_public,86,2024-11-01,dispute_public,Dispute between North Kansas City Hospital/Meritas Health and Aetna became public,Becker's Hospital Review
+86_oon,86,"Oct 1, 2024",oon_effective,North Kansas City Hospital/Meritas Health went out-of-network with Aetna,
+87_public,87,2024-11-01,dispute_public,Dispute between Vanderbilt Health and Blue Cross Blue Shield of Tennessee became public,Becker's Hospital Review
+88_public,88,2024-11-01,dispute_public,Dispute between Avera Health and Humana became public,Becker's Hospital Review
+88_oon,88,"Dec 31, 2024",oon_effective,Avera Health went out-of-network with Humana,
+89_public,89,2024-11-01,dispute_public,Dispute between Sanford Health and Humana became public,Becker's Hospital Review
+90_public,90,2024-11-01,dispute_public,Dispute between Great Plains Health and All Medicare Advantage Plans became public,Becker's Hospital Review
+91_public,91,2024-11-01,dispute_public,Dispute between Kimball Health Services and All Medicare Advantage Plans became public,Becker's Hospital Review
+92_public,92,2024-11-01,dispute_public,Dispute between Prairie Lakes Healthcare System and Humana became public,Becker's Hospital Review
+93_public,93,2024-11-01,dispute_public,Dispute between MyMichigan Health and Aetna became public,Becker's Hospital Review
+93_oon,93,"Dec 31, 2024",oon_effective,MyMichigan Health went out-of-network with Aetna,
+94_public,94,2024-11-01,dispute_public,Dispute between Carson Tahoe Health and UnitedHealthcare became public,Becker's Hospital Review
+94_oon,94,"May 30, 2025",oon_effective,Carson Tahoe Health went out-of-network with UnitedHealthcare,
+95_public,95,2024-11-01,dispute_public,Dispute between WVU Medicine Uniontown Hospital and Highmark PA/Wholecare became public,Becker's Hospital Review
+96_public,96,2024-11-01,dispute_public,Dispute between Providence Health and Aetna became public,Oregon sources
+97_public,97,2024-02-01,dispute_public,Dispute between ECU Health and Humana became public,Becker's Hospital Review
+98_public,98,2024-08-01,dispute_public,Dispute between CHI Memorial and Blue Cross Blue Shield of Tennessee Network S became public,CommonSpirit
+99_public,99,2024-08-01,dispute_public,Dispute between Bon Secours Mercy Health and Anthem became public,Becker's Hospital Review
+100_public,100,2024-08-01,dispute_public,Dispute between Adena Health System and Anthem became public,Becker's Hospital Review
+101_public,101,2024-11-01,dispute_public,Dispute between Ohio State Wexner Medical Center and Anthem became public,Becker's Hospital Review
+102_public,102,2024-08-01,dispute_public,Dispute between Aspirus/St. Luke's Hospital and Blue Cross Blue Shield of Minnesota became public,Star Tribune
+102_resolved,102,Dec 2024,resolution,Dispute resolved between Aspirus/St. Luke's Hospital and Blue Cross Blue Shield of Minnesota,
+103_public,103,2024-08-01,dispute_public,Dispute between Baylor Scott \u0026 White and Blue Cross Blue Shield of Texas became public,D Magazine
+104_public,104,2024-11-01,dispute_public,Dispute between Baylor Scott \u0026 White and Humana became public,Becker's Hospital Review
+105_public,105,2024-11-01,dispute_public,Dispute between MercyOne and Humana became public,Becker's Hospital Review
+105_oon,105,"Jan 1, 2025",oon_effective,MercyOne went out-of-network with Humana,
+106_public,106,2024-11-01,dispute_public,Dispute between CommonSpirit hospitals (Colorado) and Humana became public,Becker's Hospital Review
+106_oon,106,"Jan 1, 2025",oon_effective,CommonSpirit hospitals (Colorado) went out-of-network with Humana,
+107_public,107,2024-11-01,dispute_public,Dispute between Bayhealth and Humana/Cigna became public,Becker's Hospital Review
+108_public,108,2024-11-01,dispute_public,Dispute between Trinity Health Michigan and Humana became public,Becker's Hospital Review
+108_oon,108,"Jan 1, 2025",oon_effective,Trinity Health Michigan went out-of-network with Humana,
+109_public,109,2025-02-01,dispute_public,Dispute between Scripps Health and Anthem Blue Cross became public,Times of San Diego
+110_public,110,2025-02-01,dispute_public,Dispute between Phoenix Children's Hospital and Blue Cross Blue Shield of Arizona became public,AZFamily
+111_public,111,2025-02-01,dispute_public,Dispute between Phoenix Children's Hospital and Aetna became public,AZFamily
+112_public,112,2025-02-01,dispute_public,Dispute between M Health Fairview and Aetna became public,Minnesota AG
+113_public,113,2025-02-01,dispute_public,Dispute between Allina Health and Humana became public,ClearHealthCosts
+114_public,114,2025-02-01,dispute_public,Dispute between Mayo Clinic and HealthPartners became public,ClearHealthCosts
+115_public,115,2025-02-01,dispute_public,Dispute between Blessing Health and Multiple MA Plans became public,Becker's Hospital Review
+116_public,116,2025-05-01,dispute_public,Dispute between MU Health Care and Anthem became public,NPR/KFF Health News
+117_public,117,2025-05-01,dispute_public,Dispute between Memorial Sloan Kettering Cancer Center and UnitedHealthcare became public,CNN/MSK.org
+118_public,118,2025-05-01,dispute_public,Dispute between Hackensack Meridian Health and Horizon Blue Cross Blue Shield of NJ became public,Lakewood Alerts
+118_oon,118,"June 1, 2025",oon_effective,Hackensack Meridian Health went out-of-network with Horizon Blue Cross Blue Shield of NJ,
+119_public,119,2025-05-01,dispute_public,Dispute between MUSC Health and Humana became public,Becker's Hospital Review
+120_public,120,2025-05-01,dispute_public,Dispute between Brown University Health and UnitedHealthcare became public,Becker's Hospital Review
+121_public,121,2025-05-01,dispute_public,Dispute between North Mississippi Health Services and UnitedHealthcare became public,Becker's Hospital Review
+122_public,122,2025-05-01,dispute_public,Dispute between Phoenix Children's Hospital and UnitedHealthcare became public,AZFamily
+123_public,123,2025-08-01,dispute_public,Dispute between Johns Hopkins Medicine and UnitedHealthcare became public,UnitedHealth Group/Modern Healthcare
+124_public,124,2025-08-01,dispute_public,Dispute between VCU Health and UnitedHealthcare became public,Becker's Hospital Review
+125_public,125,2025-08-01,dispute_public,Dispute between Memorial Healthcare System and Florida Blue became public,Becker's Hospital Review
+126_public,126,2025-08-01,dispute_public,Dispute between Iowa Specialty Hospitals and Multiple MA Plans became public,Becker's Hospital Review
+127_public,127,2025-08-01,dispute_public,Dispute between Kettering Health and Humana/Devoted Health became public,Becker's Hospital Review
+128_public,128,2025-08-01,dispute_public,Dispute between Mayo Clinic and UnitedHealthcare (UnitedHealth Group)/Humana became public,Star Tribune/KTTC
+128_oon,128,"Jan 1, 2026",oon_effective,Mayo Clinic went out-of-network with UnitedHealthcare (UnitedHealth Group)/Humana,
+129_public,129,2025-08-01,dispute_public,Dispute between South Shore Health and UnitedHealthcare became public,Boston Globe
+130_public,130,2025-08-01,dispute_public,Dispute between South Shore Health and Tufts Health Direct became public,Boston Globe
+130_resolved,130,Dec 2025,resolution,Dispute resolved between South Shore Health and Tufts Health Direct,
+131_public,131,2025-08-01,dispute_public,Dispute between Kootenai Health and Regence BlueShield of Idaho became public,Idaho Capital Sun
+132_public,132,2025-08-01,dispute_public,Dispute between UConn Health and Aetna became public,Hartford Courant
+133_public,133,2025-08-01,dispute_public,Dispute between Bronson Healthcare and UnitedHealthcare became public,WZZM
+134_public,134,2025-08-01,dispute_public,Dispute between Corewell Health and UnitedHealthcare became public,WZZM
+134_oon,134,"Jan 1, 2026",oon_effective,Corewell Health went out-of-network with UnitedHealthcare,
+135_public,135,2025-08-01,dispute_public,Dispute between MultiCare and All MA PPO Plans became public,Becker's Hospital Review
+136_public,136,2025-08-01,dispute_public,Dispute between NewYork-Presbyterian and UnitedHealthcare became public,Becker's Hospital Review
+137_public,137,2025-08-01,dispute_public,Dispute between UNC Health and Humana/WellCare (Centene)/HCSC became public,Becker's Hospital Review
+138_public,138,2025-02-01,dispute_public,Dispute between Lehigh Valley Health Network and UnitedHealthcare became public,Becker's Hospital Review
+139_public,139,2025-02-01,dispute_public,Dispute between Mass General Brigham and UnitedHealthcare (UnitedHealth Group)/BCBS of Massachusetts became public,Becker's Hospital Review
+140_public,140,2025-02-01,dispute_public,Dispute between WakeMed and Humana/UnitedHealthcare became public,Becker's Hospital Review
+141_public,141,2025-02-01,dispute_public,Dispute between Southwestern Health Resources/Texas Health/UT Southwestern and Aetna became public,Becker's Hospital Review
+142_public,142,2025-02-01,dispute_public,Dispute between LMH Health and Aetna (CVS Health)/Humana became public,Becker's Hospital Review
+142_oon,142,"Jan 1, 2025",oon_effective,LMH Health went out-of-network with Aetna (CVS Health)/Humana,
+143_public,143,2025-08-01,dispute_public,Dispute between Capital Women's Care and UnitedHealthcare became public,Healthcare sources
+144_public,144,2025-02-01,dispute_public,Dispute between Salem Health and Regence BlueCross BlueShield became public,Salem Reporter
+145_public,145,2025-08-01,dispute_public,Dispute between Centra Health and Humana became public,Becker's Hospital Review
+146_public,146,2025-08-01,dispute_public,Dispute between Montrose Regional Health and Humana became public,Becker's Hospital Review
+147_public,147,2024-11-01,dispute_public,Dispute between Ballad Health (21 hospitals) and Cigna became public,Ballad Health
+147_oon,147,"Dec 31, 2024",oon_effective,Ballad Health (21 hospitals) went out-of-network with Cigna,
+148_public,148,2024-11-01,dispute_public,Dispute between Bon Secours St. Francis Health and Cigna became public,FOX Carolina
+149_public,149,2024-11-01,dispute_public,Dispute between Spartanburg Regional Healthcare and Cigna became public,WYFF4
+149_oon,149,"Dec 31, 2024",oon_effective,Spartanburg Regional Healthcare went out-of-network with Cigna,
+150_public,150,2025-02-01,dispute_public,Dispute between Mercy Health (Springfield/Urbana) and Cigna became public,Dayton Daily News
+151_public,151,2024-08-01,dispute_public,Dispute between Lifespan (4 hospitals) and Cigna became public,Boston Globe
+152_public,152,2025-05-01,dispute_public,Dispute between Southwestern Health Resources/UT Southwestern/Texas Health and Blue Cross Blue Shield of Texas became public,FOX4 Dallas
+152_oon,152,"April 1, 2025",oon_effective,Southwestern Health Resources/UT Southwestern/Texas Health went out-of-network with Blue Cross Blue Shield of Texas,
+153_public,153,2024-11-01,dispute_public,Dispute between Mercy (MO system) and Blue Cross Blue Shield/Anthem became public,First Alert 4
+154_public,154,2025-02-01,dispute_public,Dispute between Lexington Medical Center and Aetna became public,WIS TV
+155_public,155,2025-08-01,dispute_public,Dispute between Ascension Texas and Blue Cross Blue Shield of Texas became public,KVUE
+156_public,156,2025-02-01,dispute_public,Dispute between M Health Fairview and UnitedHealthcare became public,Star Tribune
+166_public,166,2024-11-01,dispute_public,Dispute between Centra Health and Humana became public,Becker's Hospital Review
+167_public,167,2025-05-01,dispute_public,Dispute between Carson Tahoe Health and Multiple MA Plans became public,Record-Courier
+168_public,168,2024-08-01,dispute_public,Dispute between Hackensack Meridian Health and Aetna became public,Patch
+169_public,169,2024-11-01,dispute_public,Dispute between NewYork-Presbyterian and UnitedHealthcare became public,Becker's Hospital Review
+170_public,170,2024-11-01,dispute_public,Dispute between UNC Health and Humana/WellCare (Centene)/HCSC became public,Becker's Hospital Review
+171_public,171,2024-11-01,dispute_public,Dispute between Sanford Health (largest rural system) and Humana became public,KFYR-TV
+172_public,172,2024-11-01,dispute_public,Dispute between M Health Fairview and UnitedHealthcare became public,Star Tribune
+173_public,173,2025-08-01,dispute_public,Dispute between Centra Health and Humana became public,Becker's Hospital Review
+174_public,174,2024-11-01,dispute_public,Dispute between Mass General Brigham and UnitedHealthcare became public,Becker's Hospital Review
+175_public,175,2025-02-01,dispute_public,Dispute between Southwestern Health Resources/Texas Health/UT Southwestern and Blue Cross Blue Shield of Texas became public,FOX4 Dallas
+175_oon,175,"April 1, 2025",oon_effective,Southwestern Health Resources/Texas Health/UT Southwestern went out-of-network with Blue Cross Blue Shield of Texas,
+176_public,176,2025-08-01,dispute_public,Dispute between Avera Health and Aetna became public,Becker's Hospital Review
+177_public,177,2025-08-01,dispute_public,Dispute between Montrose Regional Health and Humana became public,Becker's Hospital Review
+178_public,178,2025-08-01,dispute_public,Dispute between Iowa Specialty Hospitals and Multiple MA Plans became public,Becker's Hospital Review
+179_public,179,2025-02-01,dispute_public,Dispute between UMass Memorial Health and Tufts Health Direct became public,Boston Globe
+179_oon,179,"Jan 1, 2025",oon_effective,UMass Memorial Health went out-of-network with Tufts Health Direct,
+180_public,180,2025-11-01,dispute_public,Dispute between UMass Memorial Health and Blue Cross Blue Shield of Massachusetts became public,Boston Globe
+180_resolved,180,2025-11-13,resolution,Dispute resolved between UMass Memorial Health and Blue Cross Blue Shield of Massachusetts,
+181_public,181,2025-02-01,dispute_public,Dispute between Hackensack Meridian Health and Horizon Blue Cross Blue Shield of New Jersey became public,ROI-NJ
+181_oon,181,"June 1, 2025",oon_effective,Hackensack Meridian Health went out-of-network with Horizon Blue Cross Blue Shield of New Jersey,
+181_resolved,181,2025-03-31,resolution,Dispute resolved between Hackensack Meridian Health and Horizon Blue Cross Blue Shield of New Jersey,
+182_public,182,2024-08-01,dispute_public,Dispute between Hackensack Meridian Health and Aetna became public,Gothamist
+183_public,183,2024-11-01,dispute_public,Dispute between Ohio State Wexner Medical Center and Anthem Blue Cross Blue Shield became public,WOSU
+183_resolved,183,2024-12-31,resolution,Dispute resolved between Ohio State Wexner Medical Center and Anthem Blue Cross Blue Shield,
+184_public,184,2025-02-01,dispute_public,Dispute between Ohio State Wexner Medical Center and Anthem Blue Cross Blue Shield became public,WOSU
+185_public,185,2024-11-01,dispute_public,Dispute between Mount Carmel Health System and Aetna became public,10TV
+185_resolved,185,2024-12-31,resolution,Dispute resolved between Mount Carmel Health System and Aetna,
+186_public,186,2025-02-01,dispute_public,Dispute between Mount Carmel Health System and Humana became public,10TV
+187_public,187,2025-11-01,dispute_public,Dispute between TriHealth and UnitedHealthcare became public,WVXU
+187_resolved,187,2025-12-31,resolution,Dispute resolved between TriHealth and UnitedHealthcare,
+188_public,188,2025-02-01,dispute_public,Dispute between Trinity Health Michigan and Humana became public,Becker's Hospital Review
+189_public,189,2025-02-01,dispute_public,Dispute between WVU Medicine Uniontown Hospital and Highmark PA became public,Observer-Reporter
+190_public,190,2025-11-01,dispute_public,Dispute between NewYork-Presbyterian and Healthfirst became public,Gothamist
+190_resolved,190,2025-11,resolution,Dispute resolved between NewYork-Presbyterian and Healthfirst,
+191_public,191,2025-11-01,dispute_public,Dispute between Ascension Wisconsin and UnitedHealthcare became public,WTMJ
+192_public,192,2025-02-01,dispute_public,Dispute between Boston Children's Hospital and Tufts Health Direct became public,CBS Boston
+192_oon,192,"Jan 1, 2025",oon_effective,Boston Children's Hospital went out-of-network with Tufts Health Direct,
+193_public,193,2025-11-01,dispute_public,Dispute between South Shore Health and Tufts Health Direct became public,Boston Globe
+193_oon,193,"Jan 1, 2026",oon_effective,South Shore Health went out-of-network with Tufts Health Direct,
+193_resolved,193,2025-12-01,resolution,Dispute resolved between South Shore Health and Tufts Health Direct,
+194_public,194,2025-02-01,dispute_public,Dispute between South Shore Health and UnitedHealthcare became public,Boston Globe
+194_oon,194,"Jan 1, 2025",oon_effective,South Shore Health went out-of-network with UnitedHealthcare,
+195_public,195,2025-05-01,dispute_public,Dispute between UConn Health and ConnectiCare became public,Hartford Courant
+195_resolved,195,2025-06,resolution,Dispute resolved between UConn Health and ConnectiCare,
+196_public,196,2025-11-01,dispute_public,Dispute between UConn Health and Aetna became public,Hartford Courant
+197_public,197,2024-11-01,dispute_public,Dispute between Stamford Health and Anthem Blue Cross Blue Shield became public,Hartford Business Journal
+197_resolved,197,2025-02,resolution,Dispute resolved between Stamford Health and Anthem Blue Cross Blue Shield,
+198_public,198,2024-11-01,dispute_public,Dispute between Albany Med Health System and CDPHP became public,News10 ABC
+198_resolved,198,2025-02-06,resolution,Dispute resolved between Albany Med Health System and CDPHP,
+199_public,199,2025-11-01,dispute_public,Dispute between Mount Sinai Health System and Anthem Blue Cross Blue Shield became public,Anthem/Keep Mount Sinai
+200_public,200,2025-05-01,dispute_public,Dispute between Memorial Sloan Kettering and UnitedHealthcare became public,CNN
+200_resolved,200,2025-07-01,resolution,Dispute resolved between Memorial Sloan Kettering and UnitedHealthcare,
+201_public,201,2025-08-01,dispute_public,Dispute between Brown University Health and UnitedHealthcare became public,RI Attorney General
+202_public,202,2025-11-01,dispute_public,Dispute between Aspirus Health (St. Luke's) and Blue Cross Blue Shield of Minnesota became public,Star Tribune
+202_resolved,202,2025-12,resolution,Dispute resolved between Aspirus Health (St. Luke's) and Blue Cross Blue Shield of Minnesota,
+203_public,203,2024-05-01,dispute_public,Dispute between CommonSpirit Health (11 hospitals) and Anthem Blue Cross Blue Shield became public,Colorado DOI
+203_oon,203,"May 1, 2024",oon_effective,CommonSpirit Health (11 hospitals) went out-of-network with Anthem Blue Cross Blue Shield,
+203_resolved,203,2024-05-17,resolution,Dispute resolved between CommonSpirit Health (11 hospitals) and Anthem Blue Cross Blue Shield,
+204_public,204,2024-11-01,dispute_public,Dispute between Phoenix Children's Hospital and Blue Cross Blue Shield of Arizona became public,AZ Family
+204_resolved,204,2025-02,resolution,Dispute resolved between Phoenix Children's Hospital and Blue Cross Blue Shield of Arizona,
+205_public,205,2025-11-01,dispute_public,Dispute between Abrazo Health (Tenet Healthcare) and Cigna became public,ABC15
+206_public,206,2024-02-01,dispute_public,Dispute between University of Utah Health and Aetna became public,KSL
+206_resolved,206,2024-01-29,resolution,Dispute resolved between University of Utah Health and Aetna,
+207_public,207,2025-02-01,dispute_public,Dispute between Salem Health and Regence BlueCross BlueShield became public,Salem Reporter
+207_oon,207,"Jan 1, 2025",oon_effective,Salem Health went out-of-network with Regence BlueCross BlueShield,
+208_public,208,2024-02-01,dispute_public,Dispute between Providence Alaska and Premera Blue Cross Blue Shield of Alaska became public,Anchorage Daily News
+208_resolved,208,2023-12,resolution,Dispute resolved between Providence Alaska and Premera Blue Cross Blue Shield of Alaska,
+209_public,209,2024-02-01,dispute_public,Dispute between HMSA Provider Network and HMSA became public,Hawaii News Now
+210_public,210,2023-05-01,dispute_public,Dispute between University of Utah Health and Regence BlueCross BlueShield became public,Salt Lake Tribune
+210_resolved,210,2023-06-26,resolution,Dispute resolved between University of Utah Health and Regence BlueCross BlueShield,
+211_public,211,2024-02-01,dispute_public,Dispute between UC Health (University of California) and Anthem Blue Cross became public,Fierce Healthcare
+211_resolved,211,2024-02-05,resolution,Dispute resolved between UC Health (University of California) and Anthem Blue Cross,
+212_public,212,2022-08-01,dispute_public,Dispute between Southwestern Health Resources and Blue Cross Blue Shield of Texas became public,D Magazine
+212_resolved,212,2022-10,resolution,Dispute resolved between Southwestern Health Resources and Blue Cross Blue Shield of Texas,

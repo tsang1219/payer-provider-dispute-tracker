@@ -1,0 +1,32 @@
+name: Validate release
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - name: Rebuild public artifacts
+        run: python3 scripts/monthly_update/monthly_update.py rebuild
+      - name: Validate data release
+        run: python3 scripts/maintenance/validate_release.py
+      - name: Require reproducible generated files
+        run: git diff --exit-code
+      - name: Install site dependencies
+        working-directory: site
+        run: npm ci
+      - name: Build site
+        working-directory: site
+        run: npm run build
+
