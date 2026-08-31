@@ -1,0 +1,23 @@
+case,provider,payer,first_seen_2026,latest_signal,review_status,reason
+Lee Health vs UnitedHealthcare,Lee Health,UnitedHealthcare,2026-08-26,termination announced for 2027,review,Distinct high-salience contracting dispute; reported $100M claims issue needs source validation
+Sentara vs Anthem,Sentara Health,Anthem,2026-07-31,termination notice,review,Distinct Virginia contracting dispute; exact affected products and effective dates need validation
+ECU Health vs UnitedHealthcare,ECU Health,UnitedHealthcare,2026-03-27,resolution reported 2026-08-10,review,Complete dispute arc appears available; reported 100000 affected needs validation
+Legacy Health vs Regence,Legacy Health,Regence BlueCross BlueShield,2026-03-20,resolution reported 2026-05-06,review,Complete dispute arc appears available
+White River Health vs UnitedHealthcare,White River Health,UnitedHealthcare,2026-03-25,out of network 2026-04-01,review,Distinct Arkansas contracting dispute
+LVHN vs UnitedHealthcare,Lehigh Valley Health Network,UnitedHealthcare,2026-01-22,out of network beginning 2026-04-25,review,Distinct Medicare Advantage and possibly multi-product dispute; scope needs separation
+TTUHSC vs UnitedHealthcare,Texas Tech Physicians,UnitedHealthcare,2026-03-23,out of network reported April,review,Distinct West Texas physician-network dispute
+UC Davis Health vs Cigna,UC Davis Health,Cigna,2026-06-04,July 1 deadline,review,Distinct California contracting dispute; final outcome not yet established
+MUSC vs Cigna,MUSC Health,Cigna,2026-06-18,contract talks stalled,review,Distinct South Carolina contracting dispute; effective date and outcome need validation
+Baptist Health vs Cigna,Baptist Health,Cigna,2026-04-10,contract termination confirmed,review,Provider identity and affected products must be disambiguated before inclusion
+Prime Healthcare vs BCBSIL,Prime Healthcare,Blue Cross Blue Shield of Illinois,2026-03-16,June 1 deadline,review,Distinct Illinois contracting dispute; final outcome needs validation
+Cleveland Clinic Florida vs Florida Blue,Cleveland Clinic Florida,Florida Blue,2026-02-26,contract deadline,review,Distinct Florida contracting dispute; final outcome needs validation
+Portneuf Medical Center vs Regence,Portneuf Medical Center,Regence BlueShield,2026-05-02,contract clash,review,Distinct Idaho contracting dispute
+CHI St. Vincent vs Arkansas Blue Cross,CHI St. Vincent,Arkansas Blue Cross Blue Shield,2026-08-05,September 1 deadline,review,Distinct Arkansas contracting dispute; still prospective at audit date
+Mercy Health vs Medical Mutual,Mercy Health,Medical Mutual of Ohio,2026-08-19,December termination announced,review,Distinct Ohio contracting dispute; still prospective at audit date
+Community Health System vs Cigna,Community Health System,Cigna,2026-06-24,deadline passed while talks continued,review,Provider identity and final status need validation
+East Tennessee Children's vs Cigna,East Tennessee Children's Hospital,Cigna,2026-01-06,termination reversed 2026-02-13,review,Complete short dispute arc appears available
+Kaiser reimbursement judgment,Kaiser Permanente,Community hospital,2026-06-24,$82M judgment,exclude,Reimbursement litigation rather than a network contract standoff
+Anthem No Surprises Act litigation,Anthem,Multiple hospitals,2026-01-08,lawsuits filed,exclude,Independent dispute resolution litigation outside tracker inclusion rule
+California hospitals vs Anthem payment policy,California hospitals,Anthem,2026-05-12,lawsuit filed,exclude,Payment policy litigation rather than one provider-payer network contract
+Louisiana Medicaid termination,Louisiana Medicaid,UnitedHealthcare,2026-01-22,state contract wind-down,exclude,Government procurement and MCO contract rather than provider-payer network dispute
+Adventist Health vs Santé,Adventist Health,Santé Health,2026-01-21,contract ended,hold,Counterparty may be provider organization rather than insurer; inclusion rule unclear

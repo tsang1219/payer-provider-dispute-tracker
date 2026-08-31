@@ -5,6 +5,7 @@ import argparse
 import csv
 import json
 import sys
+from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
@@ -36,6 +37,19 @@ def main(argv=None):
         errors.append("canonical contains a blank dispute_id")
     if len(ids) != len(set(ids)):
         errors.append("canonical contains duplicate dispute_id values")
+
+    pair_year = defaultdict(list)
+    for row in rows:
+        system = (row.get("system_name_normalized") or row.get("system_name") or "").strip().lower()
+        insurer = (row.get("insurer_name_normalized") or row.get("insurer_name") or "").strip().lower()
+        year = (row.get("year_first_reported") or "").strip()
+        if system and insurer and year:
+            pair_year[(system, insurer, year)].append(row.get("dispute_id", ""))
+    for (system, insurer, year), pair_ids in sorted(pair_year.items()):
+        if len(pair_ids) > 1:
+            warnings.append(
+                f"possible duplicate pair/year: {system} vs {insurer} ({year}), IDs {', '.join(pair_ids)}"
+            )
 
     for line, row in enumerate(rows, start=2):
         for field in ("system_name", "insurer_name", "first_media_date", "primary_source_url"):
